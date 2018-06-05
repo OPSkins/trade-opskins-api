@@ -20,4 +20,4 @@ items | string | + | A comma-separated list of item ids you wish to include in t
 
 Parameter | Type | Description
 --------- | -----| -------- 
-offer     | object    | [Standard Trade Offer Object](ITrade.md#standard-trade-offer-object)
+offer     | object    | [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)

@@ -16,4 +16,4 @@ offer_id | int |  + | ID of trade offer
 
 Parameter | Type | Description
 --------- | -----| -------- 
-offer     | object    | [Standard Trade Offer Object](ITrade.md#standard-trade-offer-object)
+offer     | object    | [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)

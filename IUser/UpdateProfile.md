@@ -18,4 +18,4 @@ allow_twofactor_code_reuse | boolean | - | Allow Two Factor code reuse for certa
 
 Parameter | Type | Description
 --------- | -----| -------- 
-user     | object | [Standard User Profile Object](IUser.md#standard-user-profile-object)
+user     | object | [Standard User Profile Object](/IUser.md#standard-user-profile-object)

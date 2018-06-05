@@ -16,5 +16,5 @@ offer_id | int | + | Trade offer Id you want to accept
 
 Parameter | Type | Description
 --------- | -----| -------- 
-offer     | object    | [Standard Trade Offer Object](ITrade.md#standard-trade-offer-object)
-new items | array-object | items, new for the recipient (user that makes this API call). [Standard Item Object](IItem.md#standard-item-object)
+offer     | object    | [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)
+new items | array-object | items, new for the recipient (user that makes this API call). [Standard Item Object](/IItem.md#standard-item-object)

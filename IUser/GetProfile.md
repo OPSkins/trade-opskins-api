@@ -14,4 +14,4 @@ with_extra | bool | - | Should we send sensitive user data? Defaults to `false`
 
 Parameter | Type | Description
 --------- | -----| -------- 
-user     | object | [Standard User Profile Object](IUser.md#standard-user-profile-object)
+user     | object | [Standard User Profile Object](/IUser.md#standard-user-profile-object)

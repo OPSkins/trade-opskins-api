@@ -8,7 +8,7 @@
 Parameter | Type | Description
 --------- | -----| -------- 
 id | int | Item ID
-internal_app_id | int | Trade/Internal App ID (see [ITrade/GetApps](ITrade/GetApps.md))
+internal_app_id | int | Trade/Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 sku | int | Item definition (meta-data) SKU #
 wear | float | Wear float value, only applicable for certain apps
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
