@@ -21,8 +21,8 @@ Parameter | Type | Description
 total     | int    | Total number of items (filtered, if search parameter is passed)
 items | array-object | items list, based on pagination and search filters. [Standard Item Object](IItem.md#standard-item-object)
 sort_parameters | array-object | Available sort parameters
- - value | int | value, expected in this method
- - display_name | string | Display name
+--value | int | value, expected in this method
+--display_name | string | Display name
 
 #### Sort parameter values
 - `1`: By name ASC
