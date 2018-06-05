@@ -15,6 +15,6 @@ Parameter | Type | Description
 --------- | ---- | -----------
 results | idk | Result from OPSkins API
 output | object | Archived items
- - owner_uid | int | Owner UID
- - trade_items | object | Archived Items
+--owner_uid | int | Owner UID
+--trade_items | object | Archived Items
  
