@@ -28,23 +28,23 @@ Endpoints which allows Peer-to-Peer Trading.
 Parameter | Type | Description
 --------- | -----| -------- 
 offer    | object | Holds offer and item data
-  - id    | int | offer id
-  - sender| object | Offer sender's information
-  -- uid  | int | Sender's uid
-  -- steam_id | string | Senders's SteamID
-  -- display_name | string | Sender's display name
-  -- avatar | string | Sender's avatar image url
-  -- items| object | Items which sender offered for trade in the offer. [Standard Item Object](IItem.md#standard-item-object)
-  - recipient| object | Offer recipient's information
-  -- uid  | int | Recipient's uid
-  -- steam_id | string | Recipient's SteamID
-  -- display_name | string | Recipient's display name
-  -- avatar | string | Recipient's avatar image url
-  -- items| object | Recipient's items which sender wanted to receive in the offer. [Standard Item Object](IItem.md#standard-item-object)
-  - state | int | Offer state code (See available state constants in [ITrade](ITrade.md))
-  - state_name | string | State's display name
-  - time_created | int | Offer creation timestamp
-  - time_updated | int | Last update timestamp
-  - time_expires | int | Offer expiration timestamp
-  - message | string | Message from sender to receiver
-  - sent_by_you | bool | Whether or not offer was sent by you, not outputted on non-authenticated endpoints.
+--id    | int | offer id
+--sender| object | Offer sender's information
+----uid  | int | Sender's uid
+----steam_id | string | Senders's SteamID
+----display_name | string | Sender's display name
+----avatar | string | Sender's avatar image url
+----items| object | Items which sender offered for trade in the offer. [Standard Item Object](IItem.md#standard-item-object)
+--recipient| object | Offer recipient's information
+----uid  | int | Recipient's uid
+----steam_id | string | Recipient's SteamID
+----display_name | string | Recipient's display name
+----avatar | string | Recipient's avatar image url
+----items| object | Recipient's items which sender wanted to receive in the offer. [Standard Item Object](IItem.md#standard-item-object)
+--state | int | Offer state code (See available state constants in [ITrade](ITrade.md))
+--state_name | string | State's display name
+--time_created | int | Offer creation timestamp
+--time_updated | int | Last update timestamp
+--time_expires | int | Offer expiration timestamp
+--message | string | Message from sender to receiver
+--sent_by_you | bool | Whether or not offer was sent by you, not outputted on non-authenticated endpoints.
