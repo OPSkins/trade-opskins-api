@@ -19,7 +19,7 @@ user     | object | Holds user info
 --sms_phone | string/null | (Optional via `with_extra`) Phone number used for SMS verification
 --contact_email | string/null | (Optional via `with_extra`) Email address
 --inventory_is_private | boolean | (Optional via `with_extra`) Set whether inventory is private (nobody can see it, even with token)
-- allow_twofactor_code_reuse | boolean | Allow Two Factor code reuse for certain features (Send Offer, Accept Offer)
+--allow_twofactor_code_reuse | boolean | Allow Two Factor code reuse for certain features (Send Offer, Accept Offer)
 
 ## Standard User Public Profile Object
 
