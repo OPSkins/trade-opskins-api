@@ -1,5 +1,7 @@
 # API Documentation for [trade.opskins.com](https://trade.opskins.com)
 
+Direct URL to API: [api-trade.opskins.com](https://api-trade.opskins.com)
+
 ## API Interfaces
 
 * [IItem](IItem.md)
