@@ -18,4 +18,3 @@ offer_id | int |  + | Offer ID that you're a party to (sender or receiver)
 Parameter | Type | Description
 --------- | -----| -------- 
 offer     | object    | [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)
-new items | array-object | items, new for the recipient (user that makes this API call). [Standard Item Object](/IItem.md#standard-item-object)
