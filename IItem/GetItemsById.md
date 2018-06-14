@@ -13,4 +13,4 @@ item_id| int-csv | - | item id filter, separated with comma
 #### Output Descriptions
 Parameter | Type | Description
 --------- | ---- | -----------
-items | object | [Standard Item Object](/IItem.md#standard-item-object)
+items | Array | Array of [Standard Item Object](/IItem.md#standard-item-object)
