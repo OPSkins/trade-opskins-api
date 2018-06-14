@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/ITrade/GetItemsById/v1/`
+`GET https://api-trade.opskins.com/IItem/GetItemsById/v1/`
 
 #### Input Descriptions
 
