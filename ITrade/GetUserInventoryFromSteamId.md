@@ -23,5 +23,5 @@ Parameter | Type | Description
 --------- | -----| -------- 
 total     | int    | Total number of items (filtered, if search parameter is passed)
 items | object | 
-user_data | object | [Standard Public Profile Object](/IUser.md#standard-public-profile-object)
+user_data | object | [Standard User Public Profile Object](/IUser.md#standard-user-public-profile-object)
 

@@ -8,7 +8,7 @@
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-with_extra | bool | - | Should we send sensitive user data? Defaults to `false`
+with_extra | bool |  | Should we send sensitive user data? Defaults to `false`
     
 #### Output
 

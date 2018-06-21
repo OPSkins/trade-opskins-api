@@ -1,4 +1,4 @@
-## Get your account's trade URL, allowing p2p trading.
+## Get your account's trade URL, allowing P2P trading.
 
 #### HTTP Request
 

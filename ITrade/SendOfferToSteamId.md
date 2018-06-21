@@ -1,4 +1,4 @@
-## Sends trade offer to another user, including your and their items
+   ## Sends trade offer to another user, including your and their items
 
 #### HTTP Request
 
