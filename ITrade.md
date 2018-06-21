@@ -20,7 +20,7 @@ Endpoints which allows Peer-to-Peer Trading.
 - STATE_EXPIRED = `5`       -- The offer expired from inactivity
 - STATE_CANCELED = `6`      -- The sender canceled the offer
 - STATE_DECLINED = `7`      -- The recipient declined the offer
-- STATE_INVALID_ITEMS = `8` -- One of the items in the offer is no longer available/eligible so the offer was canceled automatically
+- STATE_INVALID_ITEMS = `8` -- One of the items in the offer is no longer available so the offer was canceled automatically
 
 
 ## Standard Trade Offer Object

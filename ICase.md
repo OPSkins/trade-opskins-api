@@ -7,11 +7,10 @@ Endpoints to handle cases
 - [ICase/OpenWithKeys](ICase/OpenWithKeys.md)
 
 ## Case Status
-```
-STATE_ERROR = 1
-STATE_PENDING = 2
-STATE_OPENED = 3
-```
+
+- STATE_ERROR = `1`
+- STATE_PENDING = `2`
+- STATE_OPENED = `3`
 
 ## Standard OpenedCase Object
 
