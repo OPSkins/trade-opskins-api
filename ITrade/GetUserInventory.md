@@ -4,6 +4,10 @@
 
 `GET https://api-trade.opskins.com/ITrade/GetUserInventory/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 
 Parameter | Type | Required   | Description

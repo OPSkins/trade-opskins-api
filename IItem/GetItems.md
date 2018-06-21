@@ -12,6 +12,10 @@
 
 - Multiple SKU: `GetItems/v1?key=apikey&sku_filter=100,102&wear_tier_index=1`
 
+#### Authentication
+
+API key required.
+
 #### Input Descriptions
 
 Parameter | Type | Required   | Description

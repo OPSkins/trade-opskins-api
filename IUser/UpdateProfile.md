@@ -1,10 +1,12 @@
-## Update User Profile Data
-
-Updates the current user's public profile data.
+## Update Your Profile
 
 #### HTTP Request
 
 `POST https://api-trade.opskins.com/IUser/UpdateProfile/v1/`
+
+#### Authentication
+
+API key required.
 
 #### Input
 

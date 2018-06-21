@@ -6,9 +6,9 @@ Returns the Trade Status and Opened Case results from an offer created by a case
 
 `GET https://api-trade.opskins.com/ICaseSite/GetTradeStatus/v1`
 
-#### Authorization
+#### Authentication
 
-No auth required.
+API key required.
 
 #### Input
 

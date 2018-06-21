@@ -4,6 +4,10 @@
 
 `GET https://api-trade.opskins.com/ITrade/GetApps/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 _none_
     

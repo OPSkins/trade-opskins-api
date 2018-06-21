@@ -2,11 +2,11 @@
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/ICase/OpenWIthKeys/v1`
+`POST https://api-trade.opskins.com/ICase/OpenWithKeys/v1`
 
-#### Authorization
+#### Authentication
 
-Requires API Key authentication.
+API key required.
 
 #### Input
 

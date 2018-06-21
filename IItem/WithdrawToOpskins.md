@@ -4,6 +4,10 @@
 
 `POST https://api-trade.opskins.com/IItem/WithdrawToOpskins/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input Descriptions
 
 Parameter | Type | Required   | Description

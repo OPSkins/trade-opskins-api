@@ -1,8 +1,12 @@
-## Get user's inventory.
+## Get Your Inventory
 
 #### HTTP Request
 
 `GET https://api-trade.opskins.com/IUser/GetInventory/v1/`
+
+#### Authentication
+
+API key required.
 
 #### Input
 

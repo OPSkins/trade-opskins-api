@@ -6,7 +6,7 @@ Returns the number of cases required to open in each case-opening request.
 
 `GET https://api-trade.opskins.com/ICase/GetMinimumOpenVolume/v1`
 
-#### Authorization
+#### Authentication
 
 No auth required.
 

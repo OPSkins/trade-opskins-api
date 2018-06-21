@@ -4,6 +4,10 @@
 
 `POST https://api-trade.opskins.com/ITrade/RegenerateTradeURL/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 
 Parameter | Type | Required   | Description

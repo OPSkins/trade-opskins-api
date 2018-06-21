@@ -6,9 +6,9 @@ Returns the number of keys a specific user has on ExpressTrade
 
 `GET https://api-trade.opskins.com/ICaseSite/GetKeyCount/v1`
 
-#### Authorization
+#### Authentication
 
-No auth required.
+API key required.
 
 #### Input
 

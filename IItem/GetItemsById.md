@@ -4,6 +4,10 @@
 
 `GET https://api-trade.opskins.com/IItem/GetItemsById/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input Descriptions
 
 Parameter | Type | Required   | Description

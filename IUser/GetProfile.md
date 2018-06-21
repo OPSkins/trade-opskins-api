@@ -1,8 +1,12 @@
-## Get current user's profile
+## Get Your Profile
 
 #### HTTP Request
 
 `GET https://api-trade.opskins.com/IUser/GetProfile/v1/`
+
+#### Authentication
+
+API key required.
 
 #### Input
 

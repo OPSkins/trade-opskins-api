@@ -6,6 +6,10 @@ You must be one of the parties involved in the offer (sender/receiver).
 
 `GET https://api-trade.opskins.com/ITrade/GetOffer/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 
 Parameter | Type | Required   | Description

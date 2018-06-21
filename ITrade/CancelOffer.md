@@ -6,6 +6,10 @@ If cancelled by the sender it will go into `STATE_CANCELLED` (6) and if cancelle
 
 `POST https://api-trade.opskins.com/ITrade/CancelOffer/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 
 Parameter | Type | Required   | Description

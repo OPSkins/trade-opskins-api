@@ -4,8 +4,8 @@
 
 `GET https://api-trade.opskins.com/ITrade/GetUserInventoryFromSteamId/v1/`
 
-#### Requirements
-- Accessible with API Key Auth only
+#### Authentication
+API key required.
 
 #### Input
 

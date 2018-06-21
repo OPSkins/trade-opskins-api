@@ -6,9 +6,9 @@ Sends a trade offer to the user requesting some number of keys for uncasing item
 
 `POST https://api-trade.opskins.com/ICaseSite/SendKeyRequest/v1`
 
-#### Authorization
+#### Authentication
 
-No auth required.
+API key required.
 
 #### Input
 

@@ -4,7 +4,7 @@
 
 `GET https://api-trade.opskins.com/ICase/GetCaseSchema/v1`
 
-#### Authorization
+#### Authentication
 
 No auth required.
 

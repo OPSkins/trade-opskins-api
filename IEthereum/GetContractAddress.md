@@ -6,7 +6,7 @@ Returns the most current blockchain transaction hash address for the contract.
 
 `GET https://api-trade.opskins.com/IEthereum/GetContractAddress/v1`
 
-#### Authorization
+#### Authentication
 
 No auth required.
 

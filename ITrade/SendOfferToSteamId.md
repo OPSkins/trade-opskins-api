@@ -4,8 +4,9 @@
 
 `POST https://api-trade.opskins.com/ITrade/SendOfferToSteamId/v1/`
 
-#### Requirements
-- Accessible with API key authentication only (not available with Cookie)
+#### Authentication
+
+API key required.
 
 #### Input
 
