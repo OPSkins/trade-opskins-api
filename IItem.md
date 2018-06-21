@@ -9,7 +9,7 @@
 Parameter | Type | Description
 --------- | -----| -------- 
 id | int | Item ID
-internal_app_id | int | Trade/Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
+internal_app_id | int | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 sku | int | Item definition (meta-data) SKU #
 wear | float | Wear float value, only applicable for certain apps
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
@@ -22,7 +22,7 @@ image | object | Generic image URLs
 --300px | string | 300px image URL - https://files.opskins.media/file/vgo-img/item/dual-berettas-trigger-happy-battle-scarred-300.png
 --600px | string | 600px image URL - https://files.opskins.media/file/vgo-img/item/dual-berettas-trigger-happy-battle-scarred-600.png
 suggested_price | int | OPSkins 7-day suggested price (US cents)
-preview_urls | object | Field Inspection URLs for VGO items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic image provided in `image`.
+preview_urls | object | Field Inspection URLs for VGO items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic images provided in `image` object.
 --thumb_image | string | https://files.opskins.media/file/vgo-img/previews/163609_thumb.jpg
 --front_image | string | https://files.opskins.media/file/vgo-img/previews/163638_front.jpg
 --back_image | string | https://files.opskins.media/file/vgo-img/previews/163638_back.jpg
@@ -32,7 +32,7 @@ eth_inspect | string / null | Etherscan.io Ethereum Transaction URL. `null` for 
 pattern_index | int | Pattern index (value between 1-1000) (only available for VGO, `null` for other apps)
 paint_index | int / null | Paint index value for a CS:GO item. `0` or `null` for items without a paint-index.
 
-## Standard Item Object - Example Output
+## Example Output for Standard Item Object
 ```json
 {
     "id": 363645,

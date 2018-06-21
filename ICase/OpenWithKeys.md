@@ -1,4 +1,4 @@
-## Open a case with keys
+## Open a Case with Keys
 
 #### HTTP Request
 
@@ -19,4 +19,4 @@ amount  | int |  | Number of cases to open.  Defaults to `1`.  Maximum value of 
 
 Parameter | Type | Description
 --------- | -----| -------- 
-cases | object | [Standard OpenedCase Object](/ICase/#standard-openedcase-object)
+cases | object | [Standard OpenedCase Object](/ICase.md#standard-openedcase-object)

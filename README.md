@@ -30,5 +30,5 @@ All API responses are within the "response" object.  A typical response may look
 
 If a response is paginated, the pagination details (`current_page` and `total_pages`) occur at the top-level of the object, not inside the `response` body.
 
-## Note
-- For transferring items from OPSkins.com to WAX ExpressTrade, please see [OPSkins Docs: IInventory/TransferToTradeSite/v1](https://docs.opskins.com/public/en.html#IInventory_TransferToTradeSite_v1)
+## Additional Notes
+- For transferring items from OPSkins to WAX ExpressTrade, see: [OPSkins Docs: IInventory/TransferToTradeSite/v1](https://docs.opskins.com/public/en.html#IInventory_TransferToTradeSite_v1)

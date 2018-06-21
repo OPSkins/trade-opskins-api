@@ -1,6 +1,6 @@
 # ICase
 
-Endpoints to handle VGO keys & VGO cases
+Endpoints to handle cases
 
 - [ICase/GetCaseSchema](ICase/GetCaseSchema.md)
 - [ICase/GetMinimumOpenVolume](ICase/GetMinimumOpenVolume.md)
@@ -8,9 +8,9 @@ Endpoints to handle VGO keys & VGO cases
 
 ## Case Status
 ```
-1 = Error
-2 = Pending
-3 = Opened
+STATE_ERROR = 1
+STATE_PENDING = 2
+STATE_OPENED = 3
 ```
 
 ## Standard OpenedCase Object
@@ -24,7 +24,7 @@ case_id | int | Case Schema ID
 case_site_trade_offer_id | int | Trade Offer ID
 item | object | [Standard Item Object](/IItem.md#standard-item-object)
 
-## Standard OpenedCase Object -- Example Output
+## Example Output for Standard OpenedCase Object
 ```json
 {
   "id": 1,

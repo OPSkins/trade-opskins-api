@@ -21,4 +21,4 @@ offer_id  | int  | + | The trade offer ID that was created by the requesting use
 Parameter | Type | Description
 --------- | -----| -------- 
 offer    | object | [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)
-cases    | object | [Standard OpenedCase Object](/ICase#standard-openedcase-object)
+cases    | object | [Standard OpenedCase Object](/ICase.md#standard-openedcase-object)

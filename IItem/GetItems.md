@@ -1,16 +1,16 @@
-## Get all item meta data (only for VGO).
+## Get all item meta data (only for VGO)
 
 #### HTTP Request
 
 `GET https://api-trade.opskins.com/IItem/GetItems/v1/`
 
-All enabled items: `GetItems/v1?key=apikey`
+- All enabled items: `GetItems/v1?key=apikey`
 
-Filter by SKU: `GetItems/v1?key=apikey&sku_filter=100`
+- Filter by SKU: `GetItems/v1?key=apikey&sku_filter=100`
 
-Filter by SKU & Wear Tier: `GetItems/v1?key=apikey&sku_filter=100&wear_tier_index=1`
+- Filter by SKU & Wear Tier: `GetItems/v1?key=apikey&sku_filter=100&wear_tier_index=1`
 
-Multiple SKU: `GetItems/v1?key=apikey&sku_filter=100,102&wear_tier_index=1`
+- Multiple SKU: `GetItems/v1?key=apikey&sku_filter=100,102&wear_tier_index=1`
 
 #### Input Descriptions
 
