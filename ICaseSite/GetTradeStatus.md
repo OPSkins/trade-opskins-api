@@ -10,6 +10,8 @@ Returns the Trade Status and Opened Case results from an offer created by a case
 
 API key required.
 
+**Only accounts created with [IUser/CreateVCaseUser](/IUser/CreateVCaseUser.md) can access this endpoint.**
+
 #### Input
 
 Parameter | Type | Required   | Description

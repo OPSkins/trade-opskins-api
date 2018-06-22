@@ -29,12 +29,12 @@ sort_parameters | array-object | Available sort parameters
 --display_name | string | Display name
 
 #### Sort parameter values
-- `1`: By name ASC
-- `2`: By name DESC
-- `3`: By last_update ASC
-- `4`: By last_update DESC
-- `5`: By suggested price ASC
-- `6`: By suggested price DESC
+- `1`: By name ASC (alphabetical, `z` first)
+- `2`: By name DESC (alphabetical, `a` first)
+- `3`: By last_update ASC (oldest first)
+- `4`: By last_update DESC (newest first)
+- `5`: By suggested price ASC (lowest first)
+- `6`: By suggested price DESC (highest first)
 
 
 

@@ -10,6 +10,8 @@ Sends a trade offer to the user requesting some number of keys for uncasing item
 
 API key required.
 
+**Only accounts created with [IUser/CreateVCaseUser](/IUser/CreateVCaseUser.md) can access this endpoint.**
+
 #### Input
 
 Parameter | Type | Required   | Description
