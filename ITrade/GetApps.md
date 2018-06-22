@@ -4,6 +4,10 @@
 
 `GET https://api-trade.opskins.com/ITrade/GetApps/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 _none_
     
@@ -27,12 +31,12 @@ apps | object | List of apps and descriptions
     "response": {
         "apps": [
             {
-                "internal_app_id": 2,
-                "steam_app_id": 730,
-                "steam_context_id": 2,
-                "name": "CS:GO",
-                "long_name": "Counter-Strike: Global Offensive",
-                "img": null,
+                "internal_app_id": 1,
+                "steam_app_id": 1912,
+                "steam_context_id": 1,
+                "name": "VGO",
+                "long_name": "VGO",
+                "img": "https://opskins.com/images/games/logo-small-vgo.jpg",
                 "default": 1
             }
         ]

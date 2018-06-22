@@ -1,8 +1,12 @@
-## Get your account's trade URL, allowing p2p trading.
+## Get your account's trade URL, allowing P2P trading.
 
 #### HTTP Request
 
 `GET https://api-trade.opskins.com/ITrade/GetTradeURL/v1/`
+
+#### Authentication
+
+API key required.
 
 #### Input
 

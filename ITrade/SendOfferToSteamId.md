@@ -1,11 +1,12 @@
-## Sends trade offer to another user, including your and their items
+   ## Sends trade offer to another user, including your and their items
 
 #### HTTP Request
 
 `POST https://api-trade.opskins.com/ITrade/SendOfferToSteamId/v1/`
 
-#### Requirements
-- Accessible with API key authentication only (not available with Cookie)
+#### Authentication
+
+API key required.
 
 #### Input
 

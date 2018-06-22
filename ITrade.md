@@ -15,12 +15,12 @@ Endpoints which allows Peer-to-Peer Trading.
 
 
 ## Offer States
-- STATE_ACTIVE = 2;                             /** The offer is active and the recipient can accept it to exchange the items */
-- STATE_ACCEPTED = 3;                           /** The recipient accepted the offer and items were exchanged */
-- STATE_EXPIRED = 5;                            /** The offer expired from inactivity */
-- STATE_CANCELED = 6;                           /** The sender canceled the offer */
-- STATE_DECLINED = 7;                           /** The recipient declined the offer */
-- STATE_INVALID_ITEMS = 8;                      /** One of the items in the offer is no longer available/eligible so the offer was canceled automatically */
+- STATE_ACTIVE = `2`        -- The offer is active and the recipient can accept it to exchange the items
+- STATE_ACCEPTED = `3`      -- The recipient accepted the offer and items were exchanged
+- STATE_EXPIRED = `5`       -- The offer expired from inactivity
+- STATE_CANCELED = `6`      -- The sender canceled the offer
+- STATE_DECLINED = `7`      -- The recipient declined the offer
+- STATE_INVALID_ITEMS = `8` -- One of the items in the offer is no longer available so the offer was canceled automatically
 
 
 ## Standard Trade Offer Object
@@ -41,10 +41,10 @@ offer    | object | Holds offer and item data
 ----display_name | string | Recipient's display name
 ----avatar | string | Recipient's avatar image url
 ----items| object | Recipient's items which sender wanted to receive in the offer. [Standard Item Object](/IItem.md#standard-item-object)
---state | int | Offer state code (See available state constants in [ITrade](/ITrade.md#offer-states))
---state_name | string | State's display name
---time_created | int | Offer creation timestamp
---time_updated | int | Last update timestamp
---time_expires | int | Offer expiration timestamp
+--state | int | Offer state int -- [Offer States](/ITrade.md#offer-states)
+--state_name | string | State's display name e.g "Active"
+--time_created | int | Offer creation unix timestamp
+--time_updated | int | Last update unix timestamp
+--time_expires | int | Offer expiration unix timestamp
 --message | string | Message from sender to receiver
---sent_by_you | bool | Whether or not offer was sent by you, not outputted on non-authenticated endpoints.
+--sent_by_you | bool | Whether or not the offer was sent by you. Not outputted on no-auth endpoints.

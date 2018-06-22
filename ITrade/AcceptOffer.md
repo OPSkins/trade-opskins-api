@@ -4,6 +4,10 @@
 
 `POST https://api-trade.opskins.com/ITrade/AcceptOffer/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 
 Parameter | Type | Required   | Description
@@ -18,3 +22,4 @@ Parameter | Type | Description
 --------- | -----| -------- 
 offer     | object    | [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)
 new items | array-object | items, new for the recipient (user that makes this API call). [Standard Item Object](/IItem.md#standard-item-object)
+failed_cases | int | A count of failed cases opened with keys, 0 if none failed.

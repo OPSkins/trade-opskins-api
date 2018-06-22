@@ -1,14 +1,18 @@
-## Get current user's profile
+## Get Your Profile
 
 #### HTTP Request
 
 `GET https://api-trade.opskins.com/IUser/GetProfile/v1/`
 
+#### Authentication
+
+API key required.
+
 #### Input
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-with_extra | bool | - | Should we send sensitive user data? Defaults to `false`
+with_extra | bool |  | Should we send sensitive user data? Defaults to `false`
     
 #### Output
 
