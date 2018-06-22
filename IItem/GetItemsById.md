@@ -18,3 +18,4 @@ item_id| int-csv | + | item id filter, separated with comma
 Parameter | Type | Description
 --------- | ---- | -----------
 items | array-object | Array of [Standard Item Object](/IItem.md#standard-item-object)
+unknown_items | array | Array of item ids that were not found.
