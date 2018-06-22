@@ -1,5 +1,6 @@
 ## IUser
 
+- [IUser/CreateVCaseUser](IUser/CreateVCaseUser.md)
 - [IUser/GetInventory](IUser/GetInventory.md)
 - [IUser/GetProfile](IUser/GetProfile.md)
 - [IUser/UpdateProfile](IUser/UpdateProfile.md)
