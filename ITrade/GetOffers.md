@@ -23,5 +23,5 @@ ids | int-csv |  | Trade offer IDs list filter
 
 Parameter | Type | Description
 --------- | -----| -------- 
-offers | array | Array of [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)
+offers | array-object | Array of [Standard Trade Offer Object](/ITrade.md#standard-trade-offer-object)
 total | int | Total number of offers matching the input filters
