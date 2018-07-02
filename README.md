@@ -14,7 +14,7 @@
 
 Direct URL to API: https://api-trade.opskins.com
 
-All API responses are within the "response" object.  A typical response may look like this:
+Some API responses are within the "response" object.  A typical response may look like this:
 
 ```json
 {
