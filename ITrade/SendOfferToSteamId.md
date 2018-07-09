@@ -12,7 +12,7 @@ API key required.
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-twofactor_code | int | + | 2FA Auth Code
+twofactor_code | int | | 2FA Auth Code. Required if including your own items.
 steam_id | int | + | Steam ID of user you want to send your trade offer to
 items | string | + | A comma-separated list of item ids you wish to include in trade offer. There should be both yours and recipients items. 200 maximum per each side.
 
