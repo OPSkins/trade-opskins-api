@@ -22,4 +22,4 @@ Parameter | Type | Required   | Description
 
 Parameter | Type | Description
 --------- | -----| -------- 
-key_count | int  | Number of keys this user owns
+key_count | string  | Number of keys this user owns.  Parsable into an int.
