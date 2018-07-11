@@ -31,6 +31,8 @@ items | object | Object containing item meta data
 ----(wear_tier_index) | string | Wear tier index
 ------(meta data properties) | mix | `name`, `category`, `rarity`, `type`, `color`, `image`, `suggested_price`, and `paint_index` from [Standard Item Object](/IItem.md#standard-item-object)
 
+**VERSION 1 BUG WARNING**: For SKU = 1 items (Skeleton Key), the wear tier index is missing.  Instead, the key is listed inside of a single-element array.  So to access it, you would: `items.1[0].name`.  This will be fixed in version 2.
+
 #### Output Example
 ```json
 {
