@@ -16,7 +16,6 @@ API key required.
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-`twofactor_code` | int | + | Two-Factor Authentication code.
 `network_id` | int | + | The ID of the network. `1` for OPSkins.com
 `network_user_id` | int  | + | User ID on the network. For OPSkins, your OPSkins User ID.
 `referral_commission_rate` | float  |  | (Optional, default is `5.00` (%)) How many percent commission referrers should receive from your cut. Max 5.00 (%) and Min 0.01 (%).
