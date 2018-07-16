@@ -1,6 +1,6 @@
 ## Update Commission Settings
 
-Update commission settings for your VCaseUser.
+Update commission settings for your VCaseUser. Link your OPSkins account to receive commission directly into your USD Wallet.
 
 #### HTTP Request
 
