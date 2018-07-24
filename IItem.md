@@ -22,7 +22,7 @@ image | object | Generic image URLs
 --300px | string | 300px image URL - https://files.opskins.media/file/vgo-img/item/dual-berettas-trigger-happy-battle-scarred-300.png
 --600px | string | 600px image URL - https://files.opskins.media/file/vgo-img/item/dual-berettas-trigger-happy-battle-scarred-600.png
 suggested_price | int | OPSkins 7-day suggested price (US cents)
-suggested_price_floor | int | (Only for VGO) The minimum viable suggested price
+suggested_price_floor | int | (Only for VGO) The minimum viable suggested price, does not change.
 preview_urls | object | Field Inspection URLs for VGO items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic images provided in `image` object.
 --thumb_image | string | https://files.opskins.media/file/vgo-img/previews/163609_thumb.jpg
 --front_image | string | https://files.opskins.media/file/vgo-img/previews/163638_front.jpg
