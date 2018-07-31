@@ -38,12 +38,14 @@ offer    | object | Holds offer and item data
 ----steam_id | string | Senders's SteamID
 ----display_name | string | Sender's display name
 ----avatar | string | Sender's avatar image url
+----verified | bool | Is this user verified on OPSkins by support?
 ----items| object | Items which sender offered for trade in the offer. [Standard Item Object](/IItem.md#standard-item-object)
 --recipient| object | Offer recipient's information
 ----uid  | int | Recipient's uid
 ----steam_id | string | Recipient's SteamID
 ----display_name | string | Recipient's display name
 ----avatar | string | Recipient's avatar image url
+----verified | bool | Is this user verified on OPSkins by support?
 ----items| object | Recipient's items which sender wanted to receive in the offer. [Standard Item Object](/IItem.md#standard-item-object)
 --state | int | Offer state int -- [Offer States](/ITrade.md#offer-states)
 --state_name | string | State's display name e.g "Active"
