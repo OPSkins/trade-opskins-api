@@ -6,7 +6,7 @@
 
 #### Authentication
 
-API key required.
+No auth required.
 
 #### Input
 _none_
