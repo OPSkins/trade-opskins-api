@@ -4,12 +4,13 @@
 - [IUser/GetInventory](IUser/GetInventory.md)
 - [IUser/GetProfile](IUser/GetProfile.md)
 - [IUser/UpdateProfile](IUser/UpdateProfile.md)
+- [IUser/UserReports](IUser/UserReports.md)
 
 
 ## Standard User Profile Object
 
 Parameter | Type | Description
---------- | -----| -------- 
+--------- | -----| --------
 user     | object | Holds user info
 --id | int | OPSkins.com User ID
 --steam_id | string | Steam ID64
@@ -25,7 +26,7 @@ user     | object | Holds user info
 ## Standard User Public Profile Object
 
 Parameter | Type | Description
---------- | -----| -------- 
+--------- | -----| --------
 user_data | object | Holds user info
 --username | string | Display name
 --avatar | string | URL to avatar
