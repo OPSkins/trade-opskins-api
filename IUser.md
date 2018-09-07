@@ -19,7 +19,7 @@ user     | object | Holds user info
 --twofactor_enabled | boolean | Whether or not user has Two-Factor Auth enabled.
 --api_key_exists | boolean | See whether user has API Key
 --sms_phone | string/null | (Optional via `with_extra`) Phone number used for SMS verification
---contact_email | string/null | (Optional via `with_extra`) Email address
+--contact_email | string/null | Email address. Optional via `with_extra`, but it is always outputted with `identity_basic` OAuth Scope.
 --inventory_is_private | boolean | (Optional via `with_extra`) Set whether inventory is private (nobody can see it, even with token)
 --allow_twofactor_code_reuse | boolean | Allow Two Factor code reuse for certain features (Send Offer, Accept Offer)
 
