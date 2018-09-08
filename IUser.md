@@ -17,10 +17,10 @@ user     | object | Holds user info
 --display_name | string | Display name
 --avatar | string | URL to avatar
 --twofactor_enabled | boolean | Whether or not user has Two-Factor Auth enabled.
---api_key_exists | boolean | See whether user has API Key
+--api_key_exists | boolean | See whether user has an API Key
 --sms_phone | string/null | (Optional via `with_extra`) Phone number used for SMS verification
 --contact_email | string/null | Email address. Optional via `with_extra`, but it is always outputted with `identity_basic` OAuth Scope.
---inventory_is_private | boolean | (Optional via `with_extra`) Set whether inventory is private (nobody can see it, even with token)
+--inventory_is_private | boolean | (Optional via `with_extra`) See whether inventory is private (no one can see it, even with a token)
 --allow_twofactor_code_reuse | boolean | Allow Two Factor code reuse for certain features (Send Offer, Accept Offer)
 
 ## Standard User Public Profile Object
