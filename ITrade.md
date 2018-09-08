@@ -1,6 +1,6 @@
 ## ITrade
 
-Endpoints which allows Peer-to-Peer Trading.
+Endpoints which allow Peer-to-Peer Trading.
 - [ITrade/AcceptOffer](ITrade/AcceptOffer.md)
 - [ITrade/CancelOffer](ITrade/CancelOffer.md)
 - [ITrade/GetApps](ITrade/GetApps.md)
@@ -32,19 +32,19 @@ If a case opening succeeds from a vcase site, the offer will go into `STATE_ACCE
 Parameter | Type | Description
 --------- | -----| -------- 
 offer    | object | Holds offer and item data
---id    | int | offer id
+--id    | int | Offer ID
 --sender| object | Offer sender's information
-----uid  | int | Sender's uid
+----uid  | int | Sender's UID
 ----steam_id | string | Senders's SteamID
 ----display_name | string | Sender's display name
-----avatar | string | Sender's avatar image url
+----avatar | string | Sender's avatar image URL
 ----verified | bool | Is this user verified on OPSkins by support?
 ----items| object | Items which sender offered for trade in the offer. [Standard Item Object](/IItem.md#standard-item-object)
 --recipient| object | Offer recipient's information
 ----uid  | int | Recipient's uid
 ----steam_id | string | Recipient's SteamID
 ----display_name | string | Recipient's display name
-----avatar | string | Recipient's avatar image url
+----avatar | string | Recipient's avatar image URL
 ----verified | bool | Is this user verified on OPSkins by support?
 ----items| object | Recipient's items which sender wanted to receive in the offer. [Standard Item Object](/IItem.md#standard-item-object)
 --state | int | Offer state int -- [Offer States](/ITrade.md#offer-states)
