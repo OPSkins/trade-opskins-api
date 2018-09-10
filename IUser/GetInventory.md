@@ -25,6 +25,7 @@ Parameter | Type | Description
 total     | int    | Total number of items (filtered, if search parameter is passed)
 items | array-object | Items list, based on pagination and search filters. [Standard Item Object](/IItem.md#standard-item-object)
 sort_parameters | array-object | Available sort parameters
+items_in_active_offers | array-object | Items list, items that are involved in active trade offers.
 --value | int | Value expected in this method
 --display_name | string | Display name
 
