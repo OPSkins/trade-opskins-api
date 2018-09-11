@@ -17,6 +17,7 @@ page | int |  | Page number in response (starting with 1, defaults to 1)
 per_page | int | | Number of items per_page in response (no more than 500)
 search | string | | Additional search by item's name 
 sort | int |  | Code to set how results should be sorted. See available types below
+filter_in_trade | boolean | | Removes items that are part of an active trade from the response.
     
 #### Output
 
