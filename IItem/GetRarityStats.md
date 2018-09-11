@@ -15,6 +15,8 @@ Parameter | Type | Required   | Description
 app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 def_id | int-csv | + | Definition IDs (SKUs) separated by commas
 
+**Note: If an item was never unboxed yet (very rare items), no stats will be outputted.** 
+
 #### Output Descriptions
 Parameter | Type | Description
 --------- | ---- | -----------
