@@ -12,9 +12,9 @@ API key required.
 
 Parameter   | Type    | Required   | Description
 ---------   | -----   | :--------: | -----------
-message     | string  | yes        | Message included in the report
-report_type | integer | yes        | Reason - spam = 1, phishing = 2, error = 3;
-offer_id    | integer | yes        | Id of the reported offer
+message     | string  | +        | Message included in the report
+report_type | integer | +        | Reason - spam = 1, phishing = 2, error = 3;
+offer_id    | integer | +        | Id of the reported offer
 
 #### Output
 
