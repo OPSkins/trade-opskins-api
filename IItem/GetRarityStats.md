@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/IItem/GetRarityStats/v1?key=apikey&app_id=1&sku=100`
+`GET https://api-trade.opskins.com/IItem/GetRarityStats/v1?key=apikey&app_id=1&def_id=100`
 
 #### Authentication
 
