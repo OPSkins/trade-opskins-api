@@ -3,6 +3,7 @@
 - [IItem/GetItemsById](IItem/GetItemsById.md)
 - [IItem/WithdrawToOpskins](IItem/WithdrawToOpskins.md)
 - [IItem/GetItems](IItem/GetItems.md)
+- [IItem/GetRarityStats](IItem/GetRarityStats.md)
 
 ## Standard Item Object
 
@@ -32,6 +33,7 @@ inspect | string / null | Steam in-game inspection URL. Can be `null`.
 eth_inspect | string / null | Etherscan.io Ethereum Transaction URL. `null` for inapplicable apps.
 pattern_index | int | Pattern index (value between 1-1000) (only available for VGO, `null` for other apps)
 paint_index | int / null | Paint index value for a CS:GO item. `0` or `null` for items without a paint-index.
+wear_tier_index | int | Wear Tier Index for a VGO item, not set for other apps.
 
 ## Example Output for Standard Item Object
 ```json
