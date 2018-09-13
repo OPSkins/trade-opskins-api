@@ -34,6 +34,7 @@ eth_inspect | string / null | Etherscan.io Ethereum Transaction URL. `null` for 
 pattern_index | int | Pattern index (value between 1-1000) (only available for VGO, `null` for other apps)
 paint_index | int / null | Paint index value for a CS:GO item. `0` or `null` for items without a paint-index.
 wear_tier_index | int | Wear Tier Index for a VGO item, not set for other apps.
+attributes | object | Item's attributes
 
 ## Example Output for Standard Item Object
 ```json
@@ -62,6 +63,10 @@ wear_tier_index | int | Wear Tier Index for a VGO item, not set for other apps.
       "300px": "https://files.opskins.media/file/vgo-img/item/karambit-poison-target-factory-new-300.png",
       "600px": "https://files.opskins.media/file/vgo-img/item/karambit-poison-target-factory-new-600.png"
     },
-    "suggested_price": 71436
+    "suggested_price": 71436,
+    "attributes": {
+        "serial_sku": 1,
+        "serial_sku_wear": 1
+    }
 }
 ```
