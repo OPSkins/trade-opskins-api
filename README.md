@@ -31,7 +31,7 @@ All *successful* API responses have return data within the "response" object.  A
 If a response is paginated, the pagination details (`current_page` and `total_pages`) occur at the top-level of the object, not inside the `response` body.
 
 #### Response Status Codes
-All `status` codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935). In some instances, the `status` code may be an HTTP status code (e.g. 404). We recognize that mixing of these codes is not ideal and will fix this in the near future.
+All `status` codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935).
 
 ## OAuth (coming soon)
 ~~OPSkins OAuth works automatically with WAX ExpressTrade as well, see [OPSkins OAuth Docs](https://docs.opskins.com/public/en.html#oauth) for more information.~~
