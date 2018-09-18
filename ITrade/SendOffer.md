@@ -22,7 +22,7 @@ items | string | + | A comma-separated list of item ids you wish to include in t
 message | string | | Trade offer message that will be displayed to the recipient
 expiration_time | int | | Custom expiration time for an offer in `seconds`. Minimum 120 seconds (2 minutes). Defaults to 14 days.
 
-*Note: items is turned into array with unique values.  If you pass `1,2,3,3,3,4` we will interpret it as `1,2,3,4` without failure.*
+> **Note: items is turned into array with unique values.  If you pass `1,2,3,3,3,4` we will interpret it as `1,2,3,4` without failure.**
     
 #### Output
 
