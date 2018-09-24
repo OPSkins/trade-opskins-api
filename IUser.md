@@ -28,5 +28,7 @@ user     | object | Holds user info
 Parameter | Type | Description
 --------- | -----| --------
 user_data | object | Holds user info
+--id | int | OPSkins.com User ID 
+--steam_id | string | Steam ID64
 --username | string | Display name
 --avatar | string | URL to avatar
