@@ -10,7 +10,9 @@ Sends a trade offer to the user requesting some number of keys for uncasing item
 
 API key required.
 
-**Only accounts created with [IUser/CreateVCaseUser](/IUser/CreateVCaseUser.md) can access this endpoint.**
+- **Only accounts created with [IUser/CreateVCaseUser](/IUser/CreateVCaseUser.md) can access this endpoint.**
+
+- **OPSkins User ID can be found on the WAX ExpressTrade [settings](https://trade.opskins.com/settings) page.**
 
 #### Input
 
@@ -21,8 +23,6 @@ case_id   | int  | + | The Case ID user wants to open
 amount    | int  |  | Number of these cases that should be opened. Defaults to 1.
 referral_uid | int | | (Optional) You can choose to send this if someone has referred someone else to your site. This should be an OPSkins UID (of the referrer). If this is set, when commission for the cases in this offer is distributed, commission will be split between your site, the referrer, and the case-opening user (rebate, if set below). You may set a custom split rate under [ICaseSite/UpdateCommissionSettings](/ICaseSite/UpdateCommissionSettings.md) with `referral_commission_rate`. If this is the same as `network_user_id` in [ICaseSite/UpdateCommissionSettings](/ICaseSite/UpdateCommissionSettings.md), the referral commission will be merged into the site's commission.
 rebate_commission_rate | float | | (Optional) You can choose to share commission with the case-opening User. Default `0.00`%, Max `10.00`%, & Min `0.01`%. If this is set, when commission for the cases in this offer is distributed, commission will be split between your site, the User, and referrer (only if set). This works similarly to `referral_commission_rate` in [ICaseSite/UpdateCommissionSettings](/ICaseSite/UpdateCommissionSettings.md). If this is the same as `referral_uid` above, referral commission will be merged into the rebate commission. If this is the same as `network_user_id` in [ICaseSite/UpdateCommissionSettings](/ICaseSite/UpdateCommissionSettings.md), the rebate will be merged into the site's commission.
-
-**OPSkins User ID can be found on the WAX ExpressTrade [settings](https://trade.opskins.com/settings) page.**
 
 #### Output
 
