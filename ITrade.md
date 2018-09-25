@@ -52,7 +52,7 @@ offer    | object | Holds offer and item data
 --time_created | int | Offer creation unix timestamp
 --time_updated | int | Last update unix timestamp
 --time_expires | int | Offer expiration unix timestamp
---message | string | Message from sender to receiver
+--message | string | Message from sender to receiver. Max `190` characters.
 --is_gift | boolean | Whether or not this offer is a gift (you are not losing any items).
 --is_case_opening | boolean | Whether or not this offer is from a vCase website.
 --sent_by_you | bool | Whether or not the offer was sent by you. Not outputted on no-auth endpoints.
