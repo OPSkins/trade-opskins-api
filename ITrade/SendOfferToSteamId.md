@@ -14,7 +14,9 @@ Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
 twofactor_code | int | + | 2FA Auth Code
 steam_id | int | + | Steam ID of user you want to send your trade offer to
-items | string | + | A comma-separated list of item ids you wish to include in trade offer. There should be both yours and recipients items. 200 maximum per each side.
+items | csv-int |  | A comma-separated list of (int) Item IDs you wish to include in the Trade Offer. It should include both sender items & recipient items. Maximum `100` items each side/user.
+items_to_send | csv-int | | A comma-separated list of (int) Item IDs you wish to send to recipient. Cannot be used in conjunction with `items` input. Maximum `100` items.
+items_to_receive | csv-int | | A comma-separated list of (int) Item IDs you wish to receive from the recipient. Cannot be used in conjunction with `items` input. Maximum `100` items.
 message | string | | An optional message to include with your trade offer, up to 190 characters.
 
 > **Note: items is turned into array with unique values.  If you pass `1,2,3,3,3,4` we will interpret it as `1,2,3,4` without failure.**
