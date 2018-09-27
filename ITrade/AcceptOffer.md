@@ -8,6 +8,9 @@
 
 API key required.
 
+#### OAuth Scopes
+`trades`
+
 #### Input
 
 Parameter | Type | Required   | Description

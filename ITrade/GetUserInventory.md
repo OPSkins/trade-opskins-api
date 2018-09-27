@@ -8,6 +8,9 @@
 
 None required.
 
+#### OAuth Scopes
+`items`, `trades`
+
 #### Input
 
 Parameter | Type | Required   | Description

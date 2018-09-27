@@ -8,6 +8,9 @@
 
 API key required.
 
+#### OAuth Scopes
+`manage_items`
+
 #### Input Descriptions
 
 Parameter | Type | Required   | Description

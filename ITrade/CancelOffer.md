@@ -10,6 +10,9 @@ If cancelled by the sender it will go into `STATE_CANCELLED` (6) and if cancelle
 
 API key required.
 
+#### OAuth Scopes
+`trades`
+
 #### Input
 
 Parameter | Type | Required   | Description

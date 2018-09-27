@@ -8,6 +8,9 @@
 
 API key required.
 
+#### OAuth Scopes
+`items`
+
 #### Input Descriptions
 
 Parameter | Type | Required   | Description

@@ -8,6 +8,9 @@
 
 API key required.
 
+#### OAuth Scopes
+`items`
+
 #### Input
 
 Parameter | Type | Required   | Description
@@ -19,7 +22,7 @@ page | int |  | page number in response (starting with 1, default to 1)
 per_page | int |  | number of items per_page in response (no more than 100, defaults to 100)
 ids | int-csv |  | Trade offer IDs list filter
 sort | string | | One of `created`, `expired`, `modified`
-    
+
 #### Output
 
 Parameter | Type | Description

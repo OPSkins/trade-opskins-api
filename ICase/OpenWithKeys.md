@@ -1,5 +1,7 @@
 ## Open a Case with Keys
 
+###**Endpoint is disabled until further notice.**
+
 #### HTTP Request
 
 `POST https://api-trade.opskins.com/ICase/OpenWithKeys/v1`
@@ -7,6 +9,9 @@
 #### Authentication
 
 API key required.
+
+#### OAuth Scopes
+`manage_items`
 
 #### Input
 

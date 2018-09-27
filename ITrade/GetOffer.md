@@ -10,6 +10,9 @@ You must be one of the parties involved in the offer (sender/receiver).
 
 API key required.
 
+#### OAuth Scopes
+`items`
+
 #### Input
 
 Parameter | Type | Required   | Description
