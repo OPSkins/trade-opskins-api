@@ -33,8 +33,8 @@ If a response is paginated, the pagination details (`current_page` and `total_pa
 #### Response Status Codes
 All `status` codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935).
 
-## OAuth (coming soon)
-~~OPSkins OAuth works automatically with WAX ExpressTrade as well, see [OPSkins OAuth Docs](https://docs.opskins.com/public/en.html#oauth) for more information.~~
+## OAuth
+OPSkins OAuth works automatically with WAX ExpressTrade as well, see [OPSkins OAuth Docs](https://docs.opskins.com/public/en.html#oauth) for more information.
 
 ## Additional Notes
 - On some endpoints you may be required to send a `twofactor_code`. Please see [this comment](https://github.com/OPSkins/trade-opskins-api/issues/16#issuecomment-399715578) if you need help.
