@@ -7,6 +7,9 @@
 #### Authentication
 API key required.
 
+#### OAuth Scopes
+`items`, `trades`
+
 #### Input
 
 Parameter | Type | Required   | Description

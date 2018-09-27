@@ -8,6 +8,9 @@
 
 API key required.
 
+#### OAuth Scopes
+`edit_account`
+
 #### Input
 
 Parameter | Type | Required   | Description

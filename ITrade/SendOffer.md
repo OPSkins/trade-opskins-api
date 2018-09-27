@@ -8,6 +8,9 @@
 
 API key required.
 
+#### OAuth Scopes
+`trades`
+
 #### Input
 
 One of: `uid` + `token` **or** `trade_url` is required.

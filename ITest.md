@@ -9,17 +9,17 @@ Interface used for testing
 
 ## Test (v1)
 
+A test endpoint that doesn't require authentication and doesn't return anything information other than the default status and time fields.
+
 `GET|POST https://api-trade.opskins.com/ITest/Test/v1/`
 
-`GET|POST https://api-trade.opskins.com/ITest/TestAuthed/v1`
+#### Authentication
 
-A test endpoint that doesn't require authentication and doesn't return anything information other than the default status and time fields.
+None required.
 
 #### Input
 
-Parameter | Type | Required   | Description
---------- | -----| :--------: | -----------
-_none_ | | | 
+_none_
 
 #### Output
 
@@ -32,8 +32,41 @@ _none_ | | |
 
 ## TestAuthed (v1)
 
-TODO
+`GET|POST https://api-trade.opskins.com/ITest/TestAuthed/v1`
 
-## TestBody (V1)
+#### Authentication
 
-TODO
+API key required.
+
+#### Input
+
+_none_
+
+#### OAuth Scopes
+ `identity_basic`, `identity`
+
+```json
+{
+    "status": 1,
+    "time": 1538088235,
+    "response": {
+        "uid": 123456
+    }
+}
+```
+
+## TestBody (v1)
+
+`GET|POST https://api-trade.opskins.com/ITest/TestBody/v1`
+
+#### Authentication
+
+API key required.
+
+#### Input
+
+Any test input.
+
+#### Output
+
+Everything that was sent as input.

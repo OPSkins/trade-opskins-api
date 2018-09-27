@@ -9,7 +9,7 @@
 API key required.
 
 #### OAuth Scopes
- `identity_basic`, `identity`
+`identity_basic`, `identity`
 
 #### Input
 
