@@ -1,5 +1,8 @@
 # API Documentation for [WAX ExpressTrade](https://trade.opskins.com)
 
+### **🚨 Breaking Change Notice 🚨**
+- `items` input on `ITrade/SendOffer` & `ITrade/SendOfferToSteamId` endpoints will be **completely disabled on *October 22nd, 2018***. Please switch to using these two inputs instead: `items_to_send` & `items_to_receive`. Thank you for your cooperation and understanding.
+
 ## API Interfaces
 
 * [ICase](ICase.md)
