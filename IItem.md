@@ -66,7 +66,8 @@ attributes | object | Item's attributes
     "suggested_price": 71436,
     "attributes": {
         "serial_sku": 1,
-        "serial_sku_wear": 1
+        "serial_sku_wear": 1,
+        "3d_viewer": "https://3d.opskins.media/?skin=butterfly-knife-dragonian&id=4647764"
     }
 }
 ```
