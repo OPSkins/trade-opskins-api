@@ -14,23 +14,23 @@ internal_app_id | int | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md
 sku | int | Item definition (meta-data) SKU #
 wear | float | Wear float value, only applicable for certain apps
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
-name | string | Market name e.g. "MAG-7 Gold Digger (Factory New)"
-category | string | Category name e.g. "Restricted Rifle"
-rarity | string | Category rarity e.g. "Restricted" -- only outputted for VGO
+name | string | Market name e.g. "AK-47 | Anubis (Minimal Wear)"
+category | string | Category name e.g. "Covert Rifle"
+rarity | string | Category rarity e.g. "Covert" -- only outputted for VGO
 type | string | Category type e.g. "Rifle" -- only outputted for VGO
 color | string | Color hex, includes #
 image | object | Generic image URLs
---300px | string | 300px image URL - https://files.opskins.media/file/vgo-img/item/dual-berettas-trigger-happy-battle-scarred-300.png
---600px | string | 600px image URL - https://files.opskins.media/file/vgo-img/item/dual-berettas-trigger-happy-battle-scarred-600.png
+--300px | string | 300px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-300.png
+--600px | string | 600px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-600.png
 suggested_price | int | OPSkins 7-day suggested price (US cents)
 suggested_price_floor | int | (Only for VGO) The minimum viable suggested price, does not change.
 preview_urls | object | Field Inspection URLs for VGO items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic images provided in `image` object.
---3d_viewer | string | https://3d.opskins.media/?skin=butterfly-knife-dragonian&id=4647764
---thumb_image | string | https://files.opskins.media/file/vgo-img/previews/163609_thumb.jpg
---front_image | string | https://files.opskins.media/file/vgo-img/previews/163638_front.jpg
---front_image_low | string | https://files.opskins.media/file/vgo-img/previews/163609_front.jpg
---back_image | string | https://files.opskins.media/file/vgo-img/previews/163638_back.jpg
---video | string | https://files.opskins.media/file/vgo-img/previews/163638_video.webm
+--3d_viewer | string | https://3d.opskins.media/?skin=ak-47-anubis-minimal-wear&id=4569737
+--thumb_image | string | https://files.opskins.media/file/vgo-img/previews/4569737_thumb.jpg
+--front_image_low | string | https://files.opskins.media/file/vgo-img/previews/4569737_front.jpg
+--front_image | string | https://files.opskins.media/file/vgo-img/previews/4569730_front.jpg
+--back_image | string | https://files.opskins.media/file/vgo-img/previews/4569730_back.jpg
+--video | string | https://files.opskins.media/file/vgo-img/previews/4569730_video.webm
 inspect | string / null | Steam in-game inspection URL. Can be `null`.
 eth_inspect | string / null | Etherscan.io Ethereum Transaction URL. `null` for inapplicable apps.
 pattern_index | int | Pattern index (value between 1-1000) (only available for VGO, `null` for other apps)
