@@ -46,6 +46,7 @@ attributes | object | Item's attributes
     "preview_urls": {
       "thumb_image": "https://files.opskins.media/file/vgo-img/previews/164325_thumb.jpg",
       "front_image": "https://files.opskins.media/file/vgo-img/previews/164342_front.jpg",
+      "front_image_low": "https://files.opskins.media/file/vgo-img/previews/164325_front.jpg",
       "back_image": "https://files.opskins.media/file/vgo-img/previews/164342_back.jpg",
       "video": "https://files.opskins.media/file/vgo-img/previews/164342_video.webm"
     },
