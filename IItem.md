@@ -14,10 +14,10 @@ internal_app_id | int | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md
 sku | int | Item definition (meta-data) SKU #
 wear | float | Wear float value, only applicable for certain apps
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
-name | string | Market name e.g. "AK-47 | Anubis (Minimal Wear)"
-category | string | Category name e.g. "Covert Rifle"
-rarity | string | Category rarity e.g. "Covert" -- only outputted for VGO
-type | string | Category type e.g. "Rifle" -- only outputted for VGO
+name | string | Market name e.g. `AK-47 Anubis (Minimal Wear)`
+category | string | Category name e.g. `Covert Rifle`
+rarity | string | Category rarity e.g. `Covert` -- only outputted for VGO
+type | string | Category type e.g. `Rifle` -- only outputted for VGO
 color | string | Color hex, includes #
 image | object | Generic image URLs
 --300px | string | 300px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-300.png
