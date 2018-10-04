@@ -27,6 +27,7 @@ suggested_price_floor | int | (Only for VGO) The minimum viable suggested price,
 preview_urls | object | Field Inspection URLs for VGO items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic images provided in `image` object.
 --thumb_image | string | https://files.opskins.media/file/vgo-img/previews/163609_thumb.jpg
 --front_image | string | https://files.opskins.media/file/vgo-img/previews/163638_front.jpg
+--front_image_low | string | https://files.opskins.media/file/vgo-img/previews/163609_front.jpg
 --back_image | string | https://files.opskins.media/file/vgo-img/previews/163638_back.jpg
 --video | string | https://files.opskins.media/file/vgo-img/previews/163638_video.webm
 inspect | string / null | Steam in-game inspection URL. Can be `null`.
