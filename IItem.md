@@ -41,36 +41,39 @@ attributes | object | Item's attributes
 ## Example Output for Standard Item Object
 ```json
 {
-    "id": 363645,
-    "sku": 10006,
-    "wear": 0.583130179639101,
-    "pattern_index": 549,
-    "preview_urls": {
-      "3d_viewer": "https://3d.opskins.media/?skin=butterfly-knife-dragonian&id=4647764",
-      "thumb_image": "https://files.opskins.media/file/vgo-img/previews/164325_thumb.jpg",
-      "front_image": "https://files.opskins.media/file/vgo-img/previews/164342_front.jpg",
-      "front_image_low": "https://files.opskins.media/file/vgo-img/previews/164325_front.jpg",
-      "back_image": "https://files.opskins.media/file/vgo-img/previews/164342_back.jpg",
-      "video": "https://files.opskins.media/file/vgo-img/previews/164342_video.webm"
-    },
-    "eth_inspect": null,
-    "trade_hold_expires": null,
-    "internal_app_id": 1,
-    "inspect": null,
-    "name": "Karambit | Poison Target (Factory New)",
-    "category": "Covert Knife",
-    "rarity": "Covert",
-    "type": "Knife",
-    "paint_index": null,
-    "color": "#eb4b4b",
-    "image": {
-      "300px": "https://files.opskins.media/file/vgo-img/item/karambit-poison-target-factory-new-300.png",
-      "600px": "https://files.opskins.media/file/vgo-img/item/karambit-poison-target-factory-new-600.png"
-    },
-    "suggested_price": 71436,
-    "attributes": {
-        "serial_sku": 1,
-        "serial_sku_wear": 1
-    }
+  "id": 6104524,
+  "sku": 151,
+  "wear": 0.10575609654188,
+  "pattern_index": 700,
+  "preview_urls": {
+    "3d_viewer": "https://3d.opskins.media/?skin=ak-47-anubis-minimal-wear&id=4569737",
+    "thumb_image": "https://files.opskins.media/file/vgo-img/previews/4569737_thumb.jpg",
+    "front_image_low": "https://files.opskins.media/file/vgo-img/previews/4569737_front.jpg",
+    "front_image": "https://files.opskins.media/file/vgo-img/previews/4569730_front.jpg",
+    "back_image": "https://files.opskins.media/file/vgo-img/previews/4569730_back.jpg",
+    "video": "https://files.opskins.media/file/vgo-img/previews/4569730_video.webm"
+  },
+  "eth_inspect": null,
+  "trade_hold_expires": null,
+  "internal_app_id": 1,
+  "inspect": null,
+  "tradable": true,
+  "attributes": {
+    "serial_sku": 290,
+    "serial_sku_wear": 25
+  },
+  "name": "AK-47 | Anubis (Minimal Wear)",
+  "category": "Covert Rifle",
+  "rarity": "Covert",
+  "type": "Rifle",
+  "paint_index": null,
+  "color": "#eb4b4b",
+  "image": {
+    "300px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-300.png",
+    "600px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-600.png"
+  },
+  "suggested_price": 18660,
+  "suggested_price_floor": 18660,
+  "wear_tier_index": 2
 }
 ```
