@@ -25,6 +25,7 @@ image | object | Generic image URLs
 suggested_price | int | OPSkins 7-day suggested price (US cents)
 suggested_price_floor | int | (Only for VGO) The minimum viable suggested price, does not change.
 preview_urls | object | Field Inspection URLs for VGO items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic images provided in `image` object.
+--3d_viewer | string | https://3d.opskins.media/?skin=butterfly-knife-dragonian&id=4647764
 --thumb_image | string | https://files.opskins.media/file/vgo-img/previews/163609_thumb.jpg
 --front_image | string | https://files.opskins.media/file/vgo-img/previews/163638_front.jpg
 --front_image_low | string | https://files.opskins.media/file/vgo-img/previews/163609_front.jpg
@@ -45,6 +46,7 @@ attributes | object | Item's attributes
     "wear": 0.583130179639101,
     "pattern_index": 549,
     "preview_urls": {
+      "3d_viewer": "https://3d.opskins.media/?skin=butterfly-knife-dragonian&id=4647764",
       "thumb_image": "https://files.opskins.media/file/vgo-img/previews/164325_thumb.jpg",
       "front_image": "https://files.opskins.media/file/vgo-img/previews/164342_front.jpg",
       "front_image_low": "https://files.opskins.media/file/vgo-img/previews/164325_front.jpg",
@@ -68,8 +70,7 @@ attributes | object | Item's attributes
     "suggested_price": 71436,
     "attributes": {
         "serial_sku": 1,
-        "serial_sku_wear": 1,
-        "3d_viewer": "https://3d.opskins.media/?skin=butterfly-knife-dragonian&id=4647764"
+        "serial_sku_wear": 1
     }
 }
 ```
