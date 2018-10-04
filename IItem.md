@@ -1,5 +1,6 @@
 # IItem
 
+- [IItem/GetAllItems](IItem/GetAllItems.md)
 - [IItem/GetItemsById](IItem/GetItemsById.md)
 - [IItem/WithdrawToOpskins](IItem/WithdrawToOpskins.md)
 - [IItem/GetItems](IItem/GetItems.md)
