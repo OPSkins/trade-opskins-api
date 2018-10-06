@@ -6,6 +6,7 @@
 - [IItem/GetItems](IItem/GetItems.md)
 - [IItem/GetRarityStats](IItem/GetRarityStats.md)
 
+
 ## Standard Item Object
 
 Parameter | Type | Description
@@ -37,6 +38,8 @@ eth_inspect | string / null | Etherscan.io Ethereum Transaction URL. `null` for 
 pattern_index | int | Pattern index (value between 1-1000) (only available for VGO, `null` for other apps)
 paint_index | int / null | Paint index value for a CS:GO item. `0` or `null` for items without a paint-index.
 wear_tier_index | int | Wear Tier Index for a VGO item, not set for other apps.
+time_created | int | Unix timestamp of when this item was created
+time_updated | int | Unix timestamp of when this item was last updated
 attributes | object | Item's attributes
 
 ## Example Output for Standard Item Object
