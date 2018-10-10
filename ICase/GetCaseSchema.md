@@ -23,4 +23,8 @@ cases     | array-object | cases list
 --name  | string | Case name
 --image | object | Case image URLS
 ----300px | string | URL to 300px image
+----600px | string | URL to 600px image
+----900px | string | URL to 900px image
+----1800px | string | URL to 1800px image
+----2500px | string | URL to 2500px image
 --skus  | array | An array of item SKU in the case
