@@ -20,8 +20,11 @@ rarity | string | Category rarity e.g. `Covert` -- only outputted for VGO
 type | string | Category type e.g. `Rifle` -- only outputted for VGO
 color | string | Color hex, includes #
 image | object | Generic image URLs
---300px | string | 300px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-300.png
---600px | string | 600px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-600.png
+--300px | string | 300px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-300.png (available for all VGO items)
+--600px | string | 600px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-600.png (available for all VGO items)
+--900px | string | 900px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-900.png (not available for all VGO items yet)
+--1800px | string | 1800px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-1800.png (not available for all VGO items yet)
+--2500px | string | 2500px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-2500.png (not available for all VGO items yet)
 suggested_price | int | OPSkins 7-day suggested price (US cents)
 suggested_price_floor | int | (Only for VGO) The minimum viable suggested price, does not change.
 preview_urls | object | Field Inspection URLs for VGO items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic images provided in `image` object.
@@ -69,8 +72,11 @@ attributes | object | Item's attributes
   "paint_index": null,
   "color": "#eb4b4b",
   "image": {
-    "300px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-300.png",
-    "600px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-600.png"
+    "300px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-300.png",
+	  "600px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-600.png",
+	  "900px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-900.png",
+	  "1800px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-1800.png",
+	  "2500px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-2500.png"
   },
   "suggested_price": 18660,
   "suggested_price_floor": 18660,
