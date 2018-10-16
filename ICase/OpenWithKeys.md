@@ -1,6 +1,6 @@
 ## Open a Case with Keys
 
-###**Endpoint is disabled until further notice.**
+### **Endpoint is disabled until further notice.**
 
 #### HTTP Request
 
