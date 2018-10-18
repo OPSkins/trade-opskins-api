@@ -22,6 +22,8 @@ user     | object | Holds user info
 --contact_email | string/null | Email address. Optional via `with_extra`, but it is always outputted with `identity_basic` OAuth Scope.
 --inventory_is_private | boolean | (Optional via `with_extra`) See whether inventory is private (no one can see it, even with a token)
 --allow_twofactor_code_reuse | boolean | Allow Two Factor code reuse for certain features (Send Offer, Accept Offer)
+--auto_accept_gift_trades | boolean | Auto-accept gift trade offers
+--anonymous_transactions | boolean | Hide username in WAX transaction records
 
 ## Standard User Public Profile Object
 
