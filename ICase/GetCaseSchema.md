@@ -21,10 +21,12 @@ Parameter | Type | Description
 cases     | array-object | cases list
 --id    | int | Case ID
 --name  | string | Case name
---image | object | Case image URLS
+--image | object | Case image URLS (Note: these images may change when remaining_opens hits 0)
 ----300px | string | URL to 300px image
 ----600px | string | URL to 600px image
 ----900px | string | URL to 900px image
 ----1800px | string | URL to 1800px image
 ----2500px | string | URL to 2500px image
 --skus  | array | An array of item SKU in the case
+--max_opens | int | How many total items can be created from this case
+--remaining_opens | int | How many items are remaining to be unboxed from this case.  If this is 0, the case is depleted and cannot be opened anymore.
