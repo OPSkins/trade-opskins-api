@@ -18,6 +18,8 @@ Parameter | Type | Required   | Description
 display_name | string  |  | Name to display on trade offers
 inventory_is_private | boolean |  | Whether inventory is private (nobody can see it, even with token)
 allow_twofactor_code_reuse | boolean |  | Allow Two Factor code reuse for certain features (Send Offer, Accept Offer)
+auto_accept_gift_trades | boolean | | Auto-accept gift trade offers
+anonymous_transactions | boolean | | Hide my username in WAX transaction records
     
 #### Output
 
