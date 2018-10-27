@@ -17,7 +17,7 @@ def_id | int-csv |  | Definition IDs (SKUs) separated by commas
 
 - If an item was never unboxed (very rare items), no stats will be outputted
 
-- An individual item's static serial number will be inside [Standard Item Object](/IItem.md#standard-item-object)
+- An individual item's permanent serial number will be inside [Standard Item Object](/IItem.md#standard-item-object) as `serial_sku_wear`.
 
 #### Output Descriptions
 Parameter | Type | Description
