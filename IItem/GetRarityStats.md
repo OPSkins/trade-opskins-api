@@ -15,18 +15,18 @@ Parameter | Type | Required   | Description
 app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 def_id | int-csv |  | Definition IDs (SKUs) separated by commas
 
-**Note: If an item was never unboxed yet (very rare items), no stats will be outputted.** 
+**Note: If an item was never unboxed (very rare items), no stats will be outputted.** 
 
 #### Output Descriptions
 Parameter | Type | Description
 --------- | ---- | -----------
 items | object | Object containing rarity data per Definition ID
--(def_id) | string | Definition ID (same as `item_def_id`)
+-(def_id) | string | Definition ID
 --def_id | int | Definition ID
 --def_sub_id | int/null | Sub-Definition ID, for VGO this is the Wear Tier Index (1,2,3,4,5)
---latest_serial | int | The latest serial number (per Def ID only) given for an item of this type.
+--latest_serial | int | The latest Serial Number given for an item of this type. This is displayed as "Serial Number" on WAX ExpressTrade.
 --sub_items | object | Object containing rarity data per Definition ID & Sub Definition ID
----(def_sub_id) | string | Sub-Definition ID (same as `item_def_sub_id`)
+---(def_sub_id) | string | Sub-Definition ID
 ----def_id | int | Definition ID
 -----def_sub_id | int | Sub-Definition ID
 -----latest_serial | int | The latest serial number given for an item of this type. This is what is displayed as "Total Unboxed" on WAX ExpressTrade & OPSkins Marketplace.
