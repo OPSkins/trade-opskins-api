@@ -15,7 +15,9 @@ Parameter | Type | Required   | Description
 app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 def_id | int-csv |  | Definition IDs (SKUs) separated by commas
 
-**Note: If an item was never unboxed (very rare items), no stats will be outputted.** 
+- If an item was never unboxed (very rare items), no stats will be outputted
+
+- An individual item's static serial number will be inside [Standard Item Object](/IItem.md#standard-item-object)
 
 #### Output Descriptions
 Parameter | Type | Description
@@ -24,7 +26,7 @@ items | object | Object containing rarity data per Definition ID
 -(def_id) | string | Definition ID
 --def_id | int | Definition ID
 --def_sub_id | int/null | Sub-Definition ID, for VGO this is the Wear Tier Index (1,2,3,4,5)
---latest_serial | int | The latest Serial Number given for an item of this type. This is displayed as "Serial Number" on WAX ExpressTrade.
+--latest_serial | int | The latest Serial Number given for an item of this type (only per Def ID). Not currently displayed on our sites.
 --sub_items | object | Object containing rarity data per Definition ID & Sub Definition ID
 ---(def_sub_id) | string | Sub-Definition ID
 ----def_id | int | Definition ID
