@@ -16,7 +16,7 @@ app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 sku | csv-int | | Optional filtering by SKU
 page | int | | Page number (starting with `1`, defaults to `1`) 
 per_page | int | | Number of items per page (default `25`, max `100`, min `1`)
-sort | int |  | `4` (default) sort by DESC (newest), `3` sort by ASC (oldest)
+sort | int |  | [Standard Item Sorts](/IItem.md#standard-item-sorts)
 no_exclusions | boolean | | By default some items are excluded, [see list below](/IItem/GetAllItems.md#default-excluded-skus). Sending `1` here will disable all SKU exclusions.
 
 ##### Default Excluded SKUs
