@@ -1,4 +1,4 @@
-## Get trade offer recipient's inventory.
+## Get User Inventory
 
 #### HTTP Request
 
@@ -29,12 +29,4 @@ Parameter | Type | Description
 total     | int    | Total number of items (filtered, if search parameter is passed)
 items | object | [Standard Item Object](/IItem.md#standard-item-object)
 user_data | object | [Standard User Public Profile Object](/IUser.md#standard-user-public-profile-object)
-sort_parameters | array-object | Available sort parameters
-
-#### Sort parameter values
-- `1`: By name ASC (alphabetical, `z` first)
-- `2`: By name DESC (alphabetical, `a` first)
-- `3`: By last_update ASC (oldest first)
-- `4`: By last_update DESC (newest first)
-- `5`: By suggested price ASC (lowest first)
-- `6`: By suggested price DESC (highest first)
+sort_parameters | array-object | [Standard Item Sorts](/IItem.md#standard-item-sorts)
