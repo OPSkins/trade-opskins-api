@@ -6,6 +6,15 @@
 - [IItem/GetItems](IItem/GetItems.md)
 - [IItem/GetRarityStats](IItem/GetRarityStats.md)
 
+## Standard Item Sorts
+- `1` By name ASC (alphabetical, `z` first)
+- `2` By name DESC (alphabetical, `a` first)
+- `3` By last_update ASC (oldest first)
+- `4` By last_update DESC (newest first)
+- `5` By suggested price ASC (lowest first)
+- `6` By suggested price DESC (highest first)
+- `7` By id ASC (oldest first by creation)
+- `8` By id DESC (newest first by creation)
 
 ## Standard Item Object
 
