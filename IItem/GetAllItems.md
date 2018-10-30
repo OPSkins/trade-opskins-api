@@ -14,6 +14,7 @@ Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
 app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 sku | csv-int | | Optional filtering by SKU
+name | string | | Optional filter/search by item name
 page | int | | Page number (starting with `1`, defaults to `1`) 
 per_page | int | | Number of items per page (default `25`, max `100`, min `1`)
 sort | int |  | [Standard Item Sorts](/IItem.md#standard-item-sorts)
