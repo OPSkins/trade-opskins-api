@@ -14,7 +14,7 @@ API key required.
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-steam_id | int |  + | Steam ID of user whose inventory you want to see 
+steam_id | string |  + | Steam ID of user whose inventory you want to see 
 app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 page | int |  | Page number in response (starting with 1, default to 1) 
 per_page | int |  | Number of items per_page in response (no more than 500)
