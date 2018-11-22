@@ -5,6 +5,7 @@
 - [IItem/WithdrawToOpskins](IItem/WithdrawToOpskins.md)
 - [IItem/GetItems](IItem/GetItems.md)
 - [IItem/GetRarityStats](IItem/GetRarityStats.md)
+- [IItem/InstantSellRecentItems](IItem/InstantSellRecentItems.md)
 
 ## Standard Item Sorts
 - `1` By name ASC (alphabetical, `z` first)
