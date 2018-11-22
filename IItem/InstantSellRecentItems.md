@@ -17,8 +17,6 @@ API key required.
 #### Allowed Apps
 - 1 (VGO)
 	- Non-allowed SKUs: `1` (WAX Key)
-- 12 (WAX Stickers)
-	- Non-allowed SKUs: ~
 
 #### Input Descriptions
 
