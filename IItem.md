@@ -25,6 +25,7 @@ id | int | Item ID
 internal_app_id | int | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 sku | int | Item definition (meta-data) SKU #
 wear | float | Wear float value, only applicable for certain apps
+tradable | bool | Is item tradable? Items may be temporarily untradable during certain operations, e.g. transfers.
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
 name | string | Market name e.g. `AK-47 Anubis (Minimal Wear)`
 category | string | Category name e.g. `Covert Rifle`
