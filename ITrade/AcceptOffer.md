@@ -15,7 +15,7 @@ API key required.
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-twofactor_code | string | + | 2-factor authentication code
+twofactor_code | int | + | 2-factor authentication code
 offer_id | int | + | Trade offer Id you want to accept
 
     
