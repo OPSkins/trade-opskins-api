@@ -6,7 +6,7 @@ Endpoints which allow Peer-to-Peer Trading.
 - [ITrade/GetApps](ITrade/GetApps.md)
 - [ITrade/GetOffer](ITrade/GetOffer.md)
 - [ITrade/GetOffers](ITrade/GetOffers.md)
-- [ITrade/GetTradeUrl](ITrade/GetTradeUrl.md)
+- [ITrade/GetTradeURL](ITrade/GetTradeUrl.md)
 - [ITrade/GetUserInventory](ITrade/GetUserInventory.md)
 - [ITrade/GetUserInventoryFromSteamId](ITrade/GetUserInventoryFromSteamId.md)
 - [ITrade/RegenerateTradeUrl](ITrade/RegenerateTradeUrl.md)
