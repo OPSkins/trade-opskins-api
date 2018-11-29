@@ -9,7 +9,8 @@
 API key required.
 
 #### OAuth Scopes
-`trades`
+- `trades`
+- `open_cases` (restricted to only case-opening offers)
 
 #### Input
 
