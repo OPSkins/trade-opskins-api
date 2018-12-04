@@ -21,7 +21,8 @@ apps | object | List of apps and descriptions
 --steam_context_id | int | Steam Context ID
 --name | string | Short name of app
 --long_name | string | Long name of app
---img | string | Image URL of app icon
+--img | string | Image URL of app icon `https://opskins.com/images/games/logo-small-vgo.jpg`
+--img_thumb | string | Thumbnail image for app `https://opskins.com/images/game-thumb-vgo.jpg`
 --default | int | If property exists, this is the default app. Not outputted for other apps.
 
 ```json
