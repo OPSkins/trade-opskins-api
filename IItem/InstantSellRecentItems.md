@@ -11,7 +11,7 @@ This endpoint can be used to instant-sell recently (15 min) unboxed items on OPS
 API key required.
 
 #### OAuth Scopes
-`instant_sell_recent_items` or `manage_items`
+`instant_sell_recent_items`
 - If using OAuth, OPSkins wallet balance information will not be shown unless `balance` scope is available.
 
 #### Allowed Apps
