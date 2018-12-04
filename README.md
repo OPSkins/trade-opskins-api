@@ -1,4 +1,4 @@
-# API Documentation for [WAX ExpressTrade](https://trade.opskins.com)
+# API Documentation for [WAX Trade](https://trade.opskins.com)
 
 ## API Interfaces
 
@@ -34,8 +34,8 @@ If a response is paginated, the pagination details (`current_page` and `total_pa
 All `status` codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935).
 
 ## OAuth
-OPSkins OAuth works automatically with WAX ExpressTrade. You can use OAuth to log users into your website via OPSkins and (if desired) perform actions on their behalf via the API. Please see [OPSkins OAuth Docs](https://docs.opskins.com/public/en.html#oauth) for more information.
+OPSkins OAuth works automatically with WAX Trade. You can use OAuth to log users into your website via OPSkins and (if desired) perform actions on their behalf via the API. Please see [OPSkins OAuth Docs](https://docs.opskins.com/public/en.html#oauth) for more information.
 
 ## Additional Notes
 - On some endpoints you may be required to send a `twofactor_code`. Please see [this comment](https://github.com/OPSkins/trade-opskins-api/issues/16#issuecomment-399715578) if you need help.
-- For transferring items from OPSkins to WAX ExpressTrade, see: [OPSkins Docs: IInventory/TransferToTradeSite/v1](https://docs.opskins.com/public/en.html#IInventory_TransferToTradeSite_v1)
+- For transferring items from OPSkins to WAX Trade, see: [OPSkins Docs: IInventory/TransferToTradeSite/v1](https://docs.opskins.com/public/en.html#IInventory_TransferToTradeSite_v1)
