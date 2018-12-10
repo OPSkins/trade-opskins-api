@@ -4,9 +4,9 @@
 
 `GET https://api-trade.opskins.com/IItem/GetItemDefinitions/v1/`
 
-- Filter by `def_id`: `GetItemDefinitions/v1?key=apikey&app_id=1&def_id_filter=900000001,900000002`
+- Filter by `def_id`: `GetItemDefinitions/v1?app_id=1&def_id_filter=900000001,900000002`
 
-- Filter by `def_id`: `GetItemDefinitions/v1?key=apikey&app_id=1`
+- Filter by `def_id`: `GetItemDefinitions/v1?app_id=1`
 
 #### Authentication
 
