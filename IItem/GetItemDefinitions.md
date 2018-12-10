@@ -29,8 +29,8 @@ Parameter | Type | Description
 definitions | array-object or object | An array of objects or object list if `index_by` option is used
 --def_id | int | Unique Definition ID
 --internal_app_id | int | Internal App ID
---name | string | Name
---market_name | string | Market name
+--name | string | Name, non-unique, most likely the same as `market_name` however
+--market_name | string | Market name, unique per `app_id`
 --color | string | Color with hex # for VGO (ID 1), for all others, no #
 --image | string | Generic image URL
 --suggested_price | int | Market suggested price
