@@ -4,6 +4,7 @@
 - [IItem/GetItemsById](IItem/GetItemsById.md)
 - [IItem/WithdrawToOpskins](IItem/WithdrawToOpskins.md)
 - [IItem/GetItems](IItem/GetItems.md)
+- [IItem/GetItemDefinitions](IItem/GetItemDefinitions.md)
 - [IItem/GetRarityStats](IItem/GetRarityStats.md)
 - [IItem/InstantSellRecentItems](IItem/InstantSellRecentItems.md)
 
