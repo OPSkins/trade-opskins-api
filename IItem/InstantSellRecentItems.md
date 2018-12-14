@@ -15,8 +15,7 @@ API key required.
 - If using OAuth, OPSkins wallet balance information will not be shown unless `balance` scope is available.
 
 #### Allowed Apps
-- 1 (VGO)
-	- Non-allowed SKUs: `1` (WAX Key)
+- All apps & items allowed. Note that the OPSkins endpoint may still reject some apps & items.
 
 #### Input Descriptions
 
@@ -32,7 +31,7 @@ valid_item_ids | array-int | Item IDs considered valid
 unknown_item_ids | array-int | Item IDs that were not found in the database or do not belong to you
 not_recent_item_ids | array-int | Item IDs created more than 15 minutes ago, which are not eligible
 ineligible_item_ids | array-int | Item IDs that are currently not eligible for trade or transfer
-not_allowed_item_ids | array-int | Item IDs that are not allowed for this endpoint. See [Allowed Apps](/IItem/InstantSellRecentItems.md#allowed-apps) above.
+not_allowed_item_ids | array-int | Deprecated (all apps & items allowed). Item IDs that are not allowed for this endpoint. See [Allowed Apps](/IItem/InstantSellRecentItems.md#allowed-apps) above.
 isales_instantsellitems_v1 | mixed | Full [ISales/InstantSellItems/v1](https://docs.opskins.com/public/en.html#ISales_InstantSellItems_v1) response from OPSkins API
 
 #### Output Examples
