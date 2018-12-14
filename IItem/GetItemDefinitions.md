@@ -4,9 +4,8 @@
 
 `GET https://api-trade.opskins.com/IItem/GetItemDefinitions/v1/`
 
+- All items for an app (limit `1000` per page): `GetItemDefinitions/v1?app_id=1`
 - Filter by `def_id`: `GetItemDefinitions/v1?app_id=1&def_id_filter=900000001,900000002`
-
-- Filter by `def_id`: `GetItemDefinitions/v1?app_id=1`
 
 #### Authentication
 
@@ -27,11 +26,11 @@ per_page | int | | Number of items per_page in response (no more than `1000` (de
 Parameter | Type | Description
 --------- | ---- | -----------
 definitions | array-object or object | An array of objects or object list if `index_by` option is used
---def_id | int | Unique Definition ID, this is a unique & unchanging identifier for each item, regardless of `app_id`
+--def_id | int | Unique Definition ID, this is a unique & unchanging identifier for each item, regardless of `app_id`. Not to be confused with `sku`, which is *not unique per wear-tier* for VGO items. VGO item `def_id` starts at `900,000,000` for no particular reason. `sku` is the same as `def_id` for all other app items.
 --internal_app_id | int | Internal App ID
 --name | string | Name, non-unique, most likely the same as `market_name` however
 --market_name | string | Market name, unique per `app_id`
---color | string | Color with hex # for VGO (ID 1), for all others, no #
+--color | string | Color with hex # for VGO (ID 1), for all others, no # 🙁 -- usually corresponds to the `rarity` of the item
 --image | string | Generic image URL
 --suggested_price | int | Market suggested price
 --suggested_price_floor | int | The minimum viable suggested price, does not change.
