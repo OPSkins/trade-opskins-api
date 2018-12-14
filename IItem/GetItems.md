@@ -1,20 +1,27 @@
-## Get all item meta data (only for VGO)
+## Get Item Definitions
+
+- **This endpoint is deprecated in favor of [IItem/GetItemDefinitions](/IItem/GetItemDefinitions.md)**
+
+- Fully supports VGO items
+- Partially supports other items for seamless compability with vCase sites.
+  - Only if full list of `skus` is provided from [ICase/GetCaseSchema](/ICase/GetCaseSchema.md)
+  - Beware that the output may contain irrelavent properties to the actual item, such as wear tier
 
 #### HTTP Request
 
 `GET https://api-trade.opskins.com/IItem/GetItems/v1/`
 
-- All enabled items: `GetItems/v1?key=apikey`
+- All VGO items: `https://api-trade.opskins.com/IItem/GetItems/v1`
 
-- Filter by SKU: `GetItems/v1?key=apikey&sku_filter=100`
+- Filter by SKU (VGO only): `https://api-trade.opskins.com/IItem/GetItems/v1?sku_filter=100`
 
-- Filter by SKU & Wear Tier: `GetItems/v1?key=apikey&sku_filter=100&wear_tier_index=1`
+- Filter by SKU & Wear Tier (VGO only): `https://api-trade.opskins.com/IItem/GetItems/v1?sku_filter=100&wear_tier_index=1`
 
-- Multiple SKU: `GetItems/v1?key=apikey&sku_filter=100,102&wear_tier_index=1`
+- Multiple SKU (VGO only): `https://api-trade.opskins.com/IItem/GetItems/v1?sku_filter=100,102&wear_tier_index=1`
 
 #### Authentication
 
-API key required.
+None required.
 
 #### Input Descriptions
 
