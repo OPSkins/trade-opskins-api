@@ -3,8 +3,9 @@
 Endpoints to handle cases
 
 - [ICase/GetCaseSchema](ICase/GetCaseSchema.md)
+- [ICase/GetCaseOdds](ICase/GetCaseOdds.md)
 - [ICase/GetMinimumOpenVolume](ICase/GetMinimumOpenVolume.md)
-- [ICase/OpenWithKeys](ICase/OpenWithKeys.md)
+- [ICase/OpenWithKeys](ICase/OpenWithKeys.md) (Disabled)
 
 ## Case Status
 
