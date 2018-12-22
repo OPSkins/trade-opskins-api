@@ -18,12 +18,12 @@ cases | int-csv |  | A comma-separated list of case IDs. If sent, output is limi
 
 Parameter | Type | Description
 --------- | -----| -------- 
-cases     | array | An array of objects
+cases     | array-object | An array of objects containing each case
 --id    | int | Case ID
 --name | string | Case Name
 --total_weight  | string | Total weight of case in kilograms
 --total_percent | string | Total percent, `relative_percent`'s added together.
---odds | object | List of odds per `sku`
+--odds | array-object | An array containing object lists of odds per `sku`
 ----sku | int | Item `sku` for VGO, `def_id` for other apps/items
 ----weight | string | Weight correponding to `total_weight`
 ----relative_weight | string | Weight relative to all other items in the case
