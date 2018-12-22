@@ -27,7 +27,7 @@ cases     | array-object | cases list
 ----900px | string | URL to 900px image
 ----1800px | string | URL to 1800px image
 ----2500px | string | URL to 2500px image
---skus  | array | An array of item SKU in the case
+--skus  | array | An array of item SKU in the case. Note that these may be updated overtime for vIRL cases & will not always be the same.
 --key_amount_per_case | int | Number of keys required per 1 case opening
 --max_opens | int | How many total items can be created from this case
 --remaining_opens | int | How many items are remaining to be unboxed from this case.  If this is 0, the case is depleted and cannot be opened anymore.
