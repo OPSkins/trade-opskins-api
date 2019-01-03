@@ -17,7 +17,7 @@ Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
 app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
 def_id_filter | csv-int |  | Optional `def_id` comma-separated filter
-index_by | string | | Optionally index the output by `market_name` or `def_id`, send it as literal string
+index_by | string | | Optionally index the output by `market_name`, `def_id`, or `sku`, send it as literal string
 page | int |  | Page number in response (starting with 1, defaults to 1) 
 per_page | int | | Number of items per_page in response (no more than `1000` (default))
 
@@ -27,7 +27,7 @@ Parameter | Type | Description
 --------- | ---- | -----------
 definitions | array-object or object | An array of objects or object list if `index_by` option is used
 --def_id | int | Unique Definition ID, this is a unique & unchanging identifier for each item, regardless of `app_id`. Not to be confused with `sku`, which is *not unique per wear-tier* for VGO items. VGO item `def_id` starts at `900,000,000` for no particular reason.
---sku | int | SKU for item. Mainly utilized for VGO items, for all other items, this will be the same as `def_id` or `null`.
+--sku | int | SKU for item. Mainly utilized for VGO items, for all other items, this will be the same as `def_id`.
 --internal_app_id | int | Internal App ID
 --name | string | Name, non-unique, most likely the same as `market_name` however
 --market_name | string | Market name, unique per `app_id`
