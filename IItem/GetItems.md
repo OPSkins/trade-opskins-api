@@ -19,6 +19,8 @@
 
 - Multiple SKU (VGO only): `https://api-trade.opskins.com/IItem/GetItems/v1?sku_filter=100,102&wear_tier_index=1`
 
+> `POST` is recommended, as you could easily exceed maximum URI size with `GET` when using `def_id_filter`. If you are receiving HTTP 500 errors when using `GET`, this is most likely the reason.
+
 #### Authentication
 
 None required.
