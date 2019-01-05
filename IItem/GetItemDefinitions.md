@@ -7,6 +7,8 @@
 - All items for an app (limit `1000` per page): `GetItemDefinitions/v1?app_id=1`
 - Filter by `def_id`: `GetItemDefinitions/v1?app_id=1&def_id_filter=900000001,900000002`
 
+> `POST` is recommended, as you could easily exceed maximum URI size with `GET` when using `def_id_filter`. If you are receiving HTTP 500 errors when using `GET`, this is most likely the reason.
+
 #### Authentication
 
 None required.
