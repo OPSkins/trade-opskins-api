@@ -9,7 +9,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/IItem/GetItems/v1/`
+`GET or POST https://api-trade.opskins.com/IItem/GetItems/v1/`
 
 - All VGO items: `https://api-trade.opskins.com/IItem/GetItems/v1`
 
