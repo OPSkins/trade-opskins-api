@@ -1,8 +1,10 @@
 ## Send Key Request
 
-Sends a trade offer to the user requesting some number of keys for uncasing items on a case website.
+Sends a trade offer to the user requesting some number of keys for uncasing items on a case site.
 
-Ensure that `remaining_opens` for the case id is greater than 0 via `ICase/GetCaseSchema`, or you will get an HTTP 400 error with the code 314 (TOO_MANY_REDEMPTIONS).
+- Ensure that `remaining_opens` for the case id is greater than 0 via `ICase/GetCaseSchema`, or you will get an HTTP 400 error with the code 314 (TOO_MANY_REDEMPTIONS).
+
+- Case opening offers will be auto-accepted on behalf of users if they have accepted an offer from your site within the past 24 hours.
 
 #### HTTP Request
 
