@@ -17,8 +17,8 @@ Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
 twofactor_code | int | + | 2FA Auth Code
 steam_id | string | + | Steam ID of user you want to send your trade offer to
-items_to_send | csv-int | | A comma-separated list of (int) Item IDs you wish to send to recipient. Maximum `100` items.
-items_to_receive | csv-int | | A comma-separated list of (int) Item IDs you wish to receive from the recipient. Maximum `100` items.
+items_to_send | csv-int | | A comma-separated list of (int) Item IDs you wish to send to recipient. Maximum `200` items.
+items_to_receive | csv-int | | A comma-separated list of (int) Item IDs you wish to receive from the recipient. Maximum `200` items.
 expiration_time | int | | Custom expiration time for an offer in `seconds`. Minimum 120 seconds (2 minutes). Defaults to 14 days.
 message | string | | An optional message to include with your trade offer, up to 190 characters.
     
