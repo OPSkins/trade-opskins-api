@@ -28,7 +28,8 @@ sku | int | Item definition (meta-data) SKU #
 wear | float | Wear float value, only applicable for certain apps
 tradable | bool | Is item tradable? Items may be temporarily untradable during certain operations, e.g. transfers.
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
-name | string | Market name e.g. `AK-47 Anubis (Minimal Wear)`
+name | string | Simpler name for an item (compared to full `market_name`). May change without notice.
+market_name | string | Full market name e.g. `AK-47 Anubis (Minimal Wear)`. May change without notice.
 category | string | Category name e.g. `Covert Rifle`
 rarity | string | Category rarity e.g. `Covert` -- only outputted for VGO
 type | string | Category type e.g. `Rifle` -- only outputted for VGO
