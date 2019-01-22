@@ -24,7 +24,8 @@ Parameter | Type | Description
 --------- | -----| -------- 
 id | int | Item ID
 internal_app_id | int | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
-sku | int | Item definition (meta-data) SKU #
+def_id | int | Unique Definition ID, this is a unique & unchanging identifier for each item, regardless of app_id. Not to be confused with sku, which is not unique per wear-tier for VGO items. VGO item `def_id` range is 900,000,000 ~ 999,999,999.
+sku | int | Item SKU #, mainly utilized for VGO items. For all other items that don't have a `sku`, this will be the same as `def_id`.
 wear | float | Wear float value, only applicable for certain apps
 tradable | bool | Is item tradable? Items may be temporarily untradable during certain operations, e.g. transfers.
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
