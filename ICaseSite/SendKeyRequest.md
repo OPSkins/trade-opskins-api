@@ -24,7 +24,7 @@ Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
 `trade_url` or `steam_id` | string | + | The trade URL or the Steam ID64 of the user
 case_id   | int  | + | The Case ID user wants to open
-amount    | int  |  | Number of these cases that should be opened. Defaults to 1.
+amount    | int  |  | Number of these cases that should be opened. Defaults to 1. Maximum `400`.
 expiration_time | int | | Custom expiration time for the trade offer in `seconds`. Minimum 120 seconds (2 minutes). Defaults to 14 days.
 message | string | | Trade offer message that will be displayed to the recipient
 referral_uid | int | | (Optional) You can choose to send this if someone has referred someone else to your site. This should be an OPSkins UID (of the referrer). If this is set, when commission for the cases in this offer is distributed, commission will be split between your site, the referrer, and the case-opening user (rebate, if set below). You may set a custom split rate under [ICaseSite/UpdateCommissionSettings](/ICaseSite/UpdateCommissionSettings.md) with `referral_commission_rate`. If this is the same as `network_user_id` in [ICaseSite/UpdateCommissionSettings](/ICaseSite/UpdateCommissionSettings.md), the referral commission will be merged into the site's commission.
