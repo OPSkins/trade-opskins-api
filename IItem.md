@@ -28,6 +28,7 @@ def_id | int | Unique Definition ID, this is a unique & unchanging identifier fo
 sku | int | Item SKU #, mainly utilized for VGO items. For all other items that don't have a `sku`, this will be the same as `def_id`.
 wear | float | Wear float value, only applicable for certain apps
 tradable | bool | Is item tradable? Items may be temporarily untradable during certain operations, e.g. transfers.
+is_trade_restricted | bool | If true, item cannot be traded to other users until user is whitelisted.
 trade_hold_expires | int / null | Trade hold expiration date. `null` if no trade hold
 name | string | Simpler name for an item (compared to full `market_name`). May change without notice.
 market_name | string | Full market name e.g. `AK-47 Anubis (Minimal Wear)`. May change without notice.
