@@ -1,6 +1,6 @@
 ## Instant Sell Recent Items
 
-This endpoint can be used to instant-sell recently (15 min) unboxed items on OPSkins. Items are automatically transferred to OPSkins and then sold via the endpoint [ISales/InstantSellItems/v1](https://docs.opskins.com/public/en.html#ISales_InstantSellItems_v1). Note that partial success is possible with this endpoint. It's also possible that we will send a `status` of `1` but the OPSkins endpoint will fail completely, as shown in the Output Examples below.
+This endpoint can be used to instant-sell recently (30 min) unboxed items on OPSkins. Items are automatically transferred to OPSkins and then sold via the endpoint [ISales/InstantSellItems/v1](https://docs.opskins.com/public/en.html#ISales_InstantSellItems_v1). Note that partial success is possible with this endpoint. It's also possible that we will send a `status` of `1` but the OPSkins endpoint will fail completely, as shown in the Output Examples below.
 
 #### HTTP Request
 
@@ -29,7 +29,7 @@ Parameter | Type | Description
 --------- | ---- | -----------
 valid_item_ids | array-int | Item IDs considered valid
 unknown_item_ids | array-int | Item IDs that were not found in the database or do not belong to you
-not_recent_item_ids | array-int | Item IDs created more than 15 minutes ago, which are not eligible
+not_recent_item_ids | array-int | Item IDs created more than 30 minutes ago, which are not eligible
 ineligible_item_ids | array-int | Item IDs that are currently not eligible for trade or transfer
 not_allowed_item_ids | array-int | Deprecated (all apps & items allowed). Item IDs that are not allowed for this endpoint. See [Allowed Apps](/IItem/InstantSellRecentItems.md#allowed-apps) above.
 isales_instantsellitems_v1 | mixed | Full [ISales/InstantSellItems/v1](https://docs.opskins.com/public/en.html#ISales_InstantSellItems_v1) response from OPSkins API
