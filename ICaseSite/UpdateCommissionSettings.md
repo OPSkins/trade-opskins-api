@@ -2,6 +2,8 @@
 
 Update commission settings for your VCaseUser. Link your OPSkins account to receive commission directly into your USD Wallet.
 
+**Note: An OPSkins account must be [Payment Whitelisted](https://opskins.com/?loc=store_account#collapseWLI) before it can be linked.**
+
 #### HTTP Request
 
 `POST https://api-trade.opskins.com/ICaseSite/UpdateCommissionSettings/v1`
