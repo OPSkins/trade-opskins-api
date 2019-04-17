@@ -92,10 +92,10 @@ attributes | object | Item's attributes
   "color": "#eb4b4b",
   "image": {
     "300px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-300.png",
-	  "600px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-600.png",
-	  "900px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-900.png",
-	  "1800px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-1800.png",
-	  "2500px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-2500.png"
+    "600px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-600.png",
+    "900px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-900.png",
+    "1800px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-1800.png",
+    "2500px": "https://files.opskins.media/file/vgo-img/item/ak-47-anubis-factory-new-2500.png"
   },
   "suggested_price": 18660,
   "suggested_price_floor": 18660,
