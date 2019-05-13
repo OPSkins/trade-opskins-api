@@ -17,7 +17,7 @@ One of: `uid` + `token` **or** `trade_url` is required.
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-twofactor_code | int | + | 2-factor authentication code
+twofactor_code | int |  | 2-factor authentication code -- This is required if you're using OAuth and do not have `TRADES_NO_2FA` scope, or if you're authenticated on the front-end via cookies.  Not required when using an API Key to authenticate.
 uid | int | | User ID of user you want to send your trade offer to
 token | string | | Trade token of user you want to send your trade offer to
 trade_url | string | | Trade URL of the user you want to send your trade offer to.
