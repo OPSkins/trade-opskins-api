@@ -40,6 +40,7 @@ image | object | Generic image URLs
 --2500px | string | 2500px image URL - https://files.opskins.media/file/vgo-img/item/ak-47-anubis-minimal-wear-2500.png (not available for all VGO items yet)
 suggested_price | int | OPSkins 7-day suggested price (US cents)
 suggested_price_floor | int | The minimum viable suggested price, does not change based on market sales, so this may be considered as a 'stable' price.
+instant_sell_enabled | bool | Is this item available for instant-sell on OPSkins?
 preview_urls | object | Inspection URLs for items. Some of these properties may not be outputted if not available. If they are provided, the image or video itself may not be generated yet, so you should fallback to generic images provided in `image` object.
 --3d_viewer | string | https://3d.opskins.media/?skin=ak-47-anubis-minimal-wear&id=4569737
 --thumb_image | string | https://files.opskins.media/file/vgo-img/previews/4569737_thumb.jpg
@@ -105,6 +106,7 @@ attributes | object | Item's attributes
     },
     "suggested_price": 18660,
     "suggested_price_floor": 18660,
+    "instant_sell_enabled": true,
     "wear_tier_index": 2
 }
 ```
