@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ICase/GetCaseOdds/v1`
+`GET https://api-trade.wax.io/ICase/GetCaseOdds/v1`
 
 #### Authentication
 
@@ -29,7 +29,7 @@ cases     | array-object | An array of objects containing each case
 ----relative_weight | string | Weight relative to all other items in the case
 ----relative_percent | string | % chance of receiving this item, can be displayed to user. (`relative_weight` * 100)
 
-#### Example Output https://api-trade.opskins.com/ICase/GetCaseOdds/v1?cases=1
+#### Example Output https://api-trade.wax.io/ICase/GetCaseOdds/v1?cases=1
 
 ```json
 {

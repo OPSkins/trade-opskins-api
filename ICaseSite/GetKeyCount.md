@@ -4,7 +4,7 @@ Returns the number of keys a specific user has on ExpressTrade
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ICaseSite/GetKeyCount/v1`
+`GET https://api-trade.wax.io/ICaseSite/GetKeyCount/v1`
 
 #### Authentication
 

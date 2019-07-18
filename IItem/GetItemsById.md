@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/IItem/GetItemsById/v1/`
+`GET https://api-trade.wax.io/IItem/GetItemsById/v1/`
 
 #### Authentication
 

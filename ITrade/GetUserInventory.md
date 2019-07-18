@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ITrade/GetUserInventory/v1/`
+`GET https://api-trade.wax.io/ITrade/GetUserInventory/v1/`
 
 #### Authentication
 

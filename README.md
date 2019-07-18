@@ -12,7 +12,7 @@
 
 ## API Response
 
-Direct URL to API: https://api-trade.opskins.com
+Direct URL to API: https://api-trade.wax.io
 
 All *successful* API responses have return data within the "response" object.  A typical response may look like this:
 

@@ -8,7 +8,7 @@ Sends a trade offer to the user requesting some number of keys for uncasing item
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/ICaseSite/SendKeyRequest/v1`
+`POST https://api-trade.wax.io/ICaseSite/SendKeyRequest/v1`
 
 #### Authentication
 

@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET or POST https://api-trade.opskins.com/IItem/GetItemDefinitions/v1/`
+`GET or POST https://api-trade.wax.io/IItem/GetItemDefinitions/v1/`
 
 - All items for an app (limit `1000` per page): `GetItemDefinitions/v1?app_id=1`
 - Filter by `def_id`: `GetItemDefinitions/v1?app_id=1&def_id_filter=900000001,900000002`

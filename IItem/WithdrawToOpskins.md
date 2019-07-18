@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/IItem/WithdrawToOpskins/v1/`
+`POST https://api-trade.wax.io/IItem/WithdrawToOpskins/v1/`
 
 #### Authentication
 

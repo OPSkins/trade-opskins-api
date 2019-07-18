@@ -4,11 +4,11 @@ VCase Site users are restricted from most parts of the API.  They cannot own ite
 
 You generally only need to create a VCase Site API key once, which can be done with the following example CURL command.
 
-`curl -d '{"site_url":"http://yoursite.com","display_name":"yoursite"}' -H "Content-Type: application/json" -X POST https://api-trade.opskins.com/IUser/CreateVCaseUser/v1/`
+`curl -d '{"site_url":"http://yoursite.com","display_name":"yoursite"}' -H "Content-Type: application/json" -X POST https://api-trade.wax.io/IUser/CreateVCaseUser/v1/`
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/IUser/CreateVCaseUser/v1/`
+`POST https://api-trade.wax.io/IUser/CreateVCaseUser/v1/`
 
 #### Authentication
 

@@ -4,7 +4,7 @@ Returns the number of cases required to open in each case-opening request.
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ICase/GetMinimumOpenVolume/v1`
+`GET https://api-trade.wax.io/ICase/GetMinimumOpenVolume/v1`
 
 #### Authentication
 

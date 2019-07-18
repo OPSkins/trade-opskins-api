@@ -4,7 +4,7 @@ Returns the Trade Status and Opened Case results from an offer created by a case
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ICaseSite/GetTradeStatus/v1`
+`GET https://api-trade.wax.io/ICaseSite/GetTradeStatus/v1`
 
 #### Authentication
 

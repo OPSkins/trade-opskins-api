@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ITrade/GetUserInventoryFromSteamId/v1/`
+`GET https://api-trade.wax.io/ITrade/GetUserInventoryFromSteamId/v1/`
 
 #### Authentication
 API key required.

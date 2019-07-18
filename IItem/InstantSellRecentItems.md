@@ -4,7 +4,7 @@ This endpoint can be used to instant-sell recently (60 min) unboxed items on OPS
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/IItem/InstantSellRecentItems/v1/`
+`POST https://api-trade.wax.io/IItem/InstantSellRecentItems/v1/`
 
 #### Authentication
 

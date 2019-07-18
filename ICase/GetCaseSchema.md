@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ICase/GetCaseSchema/v1`
+`GET https://api-trade.wax.io/ICase/GetCaseSchema/v1`
 
 #### Authentication
 

@@ -4,7 +4,7 @@
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/ICase/OpenWithKeys/v1`
+`POST https://api-trade.wax.io/ICase/OpenWithKeys/v1`
 
 #### Authentication
 

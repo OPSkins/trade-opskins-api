@@ -4,7 +4,7 @@ You must be one of the parties involved in the offer (sender/receiver).
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/ITrade/GetOffer/v1/`
+`GET https://api-trade.wax.io/ITrade/GetOffer/v1/`
 
 #### Authentication
 

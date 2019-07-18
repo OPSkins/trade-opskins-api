@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/ITrade/SendOffer/v1/`
+`POST https://api-trade.wax.io/ITrade/SendOffer/v1/`
 
 #### Authentication
 

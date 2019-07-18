@@ -4,7 +4,7 @@ If cancelled by the sender it will go into `STATE_CANCELLED` (6) and if cancelle
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/ITrade/CancelOffer/v1/`
+`POST https://api-trade.wax.io/ITrade/CancelOffer/v1/`
 
 #### Authentication
 

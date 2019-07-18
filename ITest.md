@@ -11,7 +11,7 @@ Interface used for testing
 
 A test endpoint that doesn't require authentication and doesn't return anything information other than the default status and time fields.
 
-`GET|POST https://api-trade.opskins.com/ITest/Test/v1/`
+`GET|POST https://api-trade.wax.io/ITest/Test/v1/`
 
 #### Authentication
 
@@ -32,7 +32,7 @@ _none_
 
 ## TestAuthed (v1)
 
-`GET|POST https://api-trade.opskins.com/ITest/TestAuthed/v1`
+`GET|POST https://api-trade.wax.io/ITest/TestAuthed/v1`
 
 #### Authentication
 
@@ -57,7 +57,7 @@ _none_
 
 ## TestBody (v1)
 
-`GET|POST https://api-trade.opskins.com/ITest/TestBody/v1`
+`GET|POST https://api-trade.wax.io/ITest/TestBody/v1`
 
 #### Authentication
 

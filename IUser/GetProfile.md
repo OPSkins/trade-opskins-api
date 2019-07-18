@@ -2,7 +2,7 @@
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/IUser/GetProfile/v1/`
+`GET https://api-trade.wax.io/IUser/GetProfile/v1/`
 
 #### Authentication
 

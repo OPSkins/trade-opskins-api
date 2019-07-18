@@ -9,15 +9,15 @@
 
 #### HTTP Request
 
-`GET or POST https://api-trade.opskins.com/IItem/GetItems/v1/`
+`GET or POST https://api-trade.wax.io/IItem/GetItems/v1/`
 
-- All VGO items: `https://api-trade.opskins.com/IItem/GetItems/v1`
+- All VGO items: `https://api-trade.wax.io/IItem/GetItems/v1`
 
-- Filter by SKU (VGO only): `https://api-trade.opskins.com/IItem/GetItems/v1?sku_filter=100`
+- Filter by SKU (VGO only): `https://api-trade.wax.io/IItem/GetItems/v1?sku_filter=100`
 
-- Filter by SKU & Wear Tier (VGO only): `https://api-trade.opskins.com/IItem/GetItems/v1?sku_filter=100&wear_tier_index=1`
+- Filter by SKU & Wear Tier (VGO only): `https://api-trade.wax.io/IItem/GetItems/v1?sku_filter=100&wear_tier_index=1`
 
-- Multiple SKU (VGO only): `https://api-trade.opskins.com/IItem/GetItems/v1?sku_filter=100,102&wear_tier_index=1`
+- Multiple SKU (VGO only): `https://api-trade.wax.io/IItem/GetItems/v1?sku_filter=100,102&wear_tier_index=1`
 
 > `POST` is recommended, as you could easily exceed maximum URI size with `GET` when using `sku_filter`. If you are receiving HTTP 500 errors when using `GET`, this is most likely the reason.
 

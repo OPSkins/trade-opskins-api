@@ -6,7 +6,7 @@ Update commission settings for your VCaseUser. Link your OPSkins account to rece
 
 #### HTTP Request
 
-`POST https://api-trade.opskins.com/ICaseSite/UpdateCommissionSettings/v1`
+`POST https://api-trade.wax.io/ICaseSite/UpdateCommissionSettings/v1`
 
 #### Authentication
 

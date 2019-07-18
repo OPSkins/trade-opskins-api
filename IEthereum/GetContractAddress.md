@@ -4,7 +4,7 @@ Returns the most current blockchain transaction hash address for the contract.
 
 #### HTTP Request
 
-`GET https://api-trade.opskins.com/IEthereum/GetContractAddress/v1`
+`GET https://api-trade.wax.io/IEthereum/GetContractAddress/v1`
 
 #### Authentication
 
