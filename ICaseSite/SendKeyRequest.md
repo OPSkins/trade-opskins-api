@@ -16,7 +16,7 @@ API key required.
 
 - **Only accounts created with [IUser/CreateVCaseUser](/IUser/CreateVCaseUser.md) can access this endpoint.**
 
-- **OPSkins User ID can be found on the WAX ExpressTrade [settings](https://trade.opskins.com/settings) page.**
+- **OPSkins User ID can be found on the WAX ExpressTrade [settings](https://trade.wax.io/settings) page.**
 
 #### Input
 
