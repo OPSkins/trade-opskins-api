@@ -1,4 +1,4 @@
-# API Documentation for [WAX Trade](https://trade.opskins.com)
+# API Documentation for [WAX Trade](https://trade.wax.io)
 
 ## API Interfaces
 
