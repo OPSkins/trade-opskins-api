@@ -7,8 +7,8 @@
 - [IItem/GetRarityStats](IItem/GetRarityStats.md)
 - [IItem/InstantSellRecentItems](IItem/InstantSellRecentItems.md)
 ## Standard Item Sorts
-- `1` By name ASC (alphabetical, `z` first)
-- `2` By name DESC (alphabetical, `a` first)
+- `1` By name ASC (alphabetical, `a` first)
+- `2` By name DESC (alphabetical, `z` first)
 - `3` By last_update ASC (oldest first by update)
 - `4` By last_update DESC (newest first by update)
 - `5` By suggested price ASC (lowest first)
