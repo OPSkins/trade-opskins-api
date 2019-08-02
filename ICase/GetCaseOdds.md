@@ -21,7 +21,7 @@ Parameter | Type | Description
 cases     | array-object | An array of objects containing each case
 --id    | int | Case ID
 --name | string | Case Name
---total_weight  | string | Total weight of case in kilograms
+--total_weight  | string | Sum of each item's individual weight in the case
 --total_percent | string | Total percent, `relative_percent`'s added together.
 --odds | array-object | An array containing object lists of odds per `sku`
 ----sku | int | Item `sku` for VGO, `def_id` for other apps/items
