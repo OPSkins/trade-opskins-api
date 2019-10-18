@@ -1,4 +1,8 @@
-# API Documentation for [WAX Trade](https://trade.wax.io)
+### This documentation is deprecated. You can find the new documentation here: https://developer.wax.io/wax-trade/wax-expresstrade-api/#/
+
+---
+
+# [Deprecated] API Documentation for [WAX Trade](https://trade.wax.io)
 
 ## API Interfaces
 
